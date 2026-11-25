@@ -13,7 +13,7 @@
 <link rel="manifest" href="./manifest.webmanifest" />
 <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png" />
 <link rel="apple-touch-icon" href="./icon-192.png" />
-<title>미국 급등주 · 2026-11-25 정규장 마감</title>
+<title>미국 급등주 · 2026-11-25 본장</title>
 <style>
   :root{
     --bg:#f4f5f7;--card:#ffffff;--tx:#15181d;--tx2:#4d5563;--tx3:#6b7585;--line:#e9ecf1;
@@ -212,77 +212,50 @@
     .btns a{font-size:12px}
   }
 </style>
-
-<style>
-  .pos3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:10px 0 0;padding:9px 10px;
-    background:#f8fafc;border:1px solid var(--line);border-radius:12px}
-  .pos3 span{display:block;font-size:10.5px;font-weight:800;color:var(--tx3);letter-spacing:.01em}
-  .pos3 b{display:block;font-size:12.5px;font-weight:800;color:var(--tx);font-variant-numeric:tabular-nums;margin-top:1px;word-break:break-all}
-  .posnote{margin:7px 2px 0;font-size:11.5px;line-height:1.55;color:var(--tx3)}
-  .posnote b{color:var(--tx2)}
-  .kbadge{display:inline-block;font-size:11px;font-weight:800;padding:3px 8px;border-radius:8px;background:#eef3ff;color:#2f6bf0}
-</style>
-
-<style>
-  .pos3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:10px 0 0;padding:9px 10px;
-    background:#f8fafc;border:1px solid var(--line);border-radius:12px}
-  .pos3 span{display:block;font-size:10.5px;font-weight:800;color:var(--tx3);letter-spacing:.01em}
-  .pos3 b{display:block;font-size:12.5px;font-weight:800;color:var(--tx);font-variant-numeric:tabular-nums;margin-top:1px;word-break:break-all}
-  .posnote{margin:7px 2px 0;font-size:11.5px;line-height:1.55;color:var(--tx3)}
-  .posnote b{color:var(--tx2)}
-  .kbadge{display:inline-block;font-size:11px;font-weight:800;padding:3px 8px;border-radius:8px;background:#eef3ff;color:#2f6bf0}
-</style>
-
-<style>
-  .pos3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:10px 0 0;padding:9px 10px;
-    background:#f8fafc;border:1px solid var(--line);border-radius:12px}
-  .pos3 span{display:block;font-size:10.5px;font-weight:800;color:var(--tx3);letter-spacing:.01em}
-  .pos3 b{display:block;font-size:12.5px;font-weight:800;color:var(--tx);font-variant-numeric:tabular-nums;margin-top:1px;word-break:break-all}
-  .posnote{margin:7px 2px 0;font-size:11.5px;line-height:1.55;color:var(--tx3)}
-  .posnote b{color:var(--tx2)}
-  .kbadge{display:inline-block;font-size:11px;font-weight:800;padding:3px 8px;border-radius:8px;background:#eef3ff;color:#2f6bf0}
-</style>
 </head>
 <body>
 <div class="app">
   <header class="hero">
-    <p class="kick">🌙 소미 님 전용 · 2026년 11월 25일(수) 아침 · 미국 정규장 마감</p>
-    <h1>어제 밤 미국에서 많이 오른 주식 <span>11/24(화) 정규장 마감 · 한국시간 06:00</span></h1>
-    <div class="mkt"><span>나스닥 <b class="d">-1.48%</b></span><span>S&amp;P500 <b class="d">-0.50%</b></span><span>다우 <b class="u">+0.85%</b></span><span>러셀2000 <b class="u">+0.57%</b></span><span>원/달러 <b>1,342.5</b></span><span>VIX <b>26.36</b></span></div>
+    <p class="kick">🌙 소미 님 전용 · 2026년 11월 25일(수) 밤 · <b>본장 초반</b></p>
+    <h1>본장에서 실제로 오르는 주식 <span>미국 10:12 ET · 한국 00:12 · 본장 23:30 개장</span></h1>
+    <div class="mkt"><span>QQQ <b class="d">-3.24%</b></span><span>S&amp;P500 <b class="d">-2.15%</b></span><span>다우 <b class="d">-1.41%</b></span><span>러셀2000 <b class="d">-1.68%</b></span><span>원/달러 <b>1,347.1</b></span><span>코스피 <b class="d">-6.16%</b></span><span>VIX <b class="u">31.8</b></span></div>
   </header>
 
   <div class="srchbar">
     <div class="searchbox">
       <span class="mag" aria-hidden="true">🔍</span>
-      <input id="q" type="search" inputmode="search" placeholder="종목명·티커로 찾기 (예: 엠벡타, EMBC, 엔비디아)"
+      <input id="q" type="search" inputmode="search" placeholder="종목명·티커로 찾기 (예: 넥서스, NXAT, 뉴로센스)"
              autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="종목 검색" />
       <button type="button" id="clr" class="clr" hidden aria-label="검색어 지우기">✕</button>
     </div>
     <div class="tabs" role="tablist">
-      <button type="button" class="tab on" data-tab="up" role="tab" aria-selected="true">🔥 마감 급등주 <span class="cnt">20</span></button>
-      <button type="button" class="tab" data-tab="kr" role="tab" aria-selected="false">🇰🇷 서학개미 인기 <span class="cnt">16</span></button>
+      <button type="button" class="tab on" data-tab="up" role="tab" aria-selected="true">🔥 본장 급등 <span class="cnt">20</span></button>
+      <button type="button" class="tab" data-tab="kr" role="tab" aria-selected="false">🇰🇷 서학개미 인기 <span class="cnt">11</span></button>
     </div>
   </div>
 
-  <main>
+    <main>
     <details class="gist" id="gist" open>
       <summary><span aria-hidden="true">📌</span> 오늘 3줄 요약 <span class="chev" aria-hidden="true">▾</span></summary>
       <ol>
-<li><b>AI가 어제 오른 걸 하루 만에 반납</b> — 어제 +6.50%였던 나스닥이 오늘 <b class="d">-1.48%</b>(23,733.54), S&amp;P500 <b class="d">-0.50%</b>(7,201.09). 엔비디아 <b class="d">-5.86%</b>($155.38), 마이크론 <b class="d">-11.01%</b>, 필라델피아 반도체 <b class="d">-7.88%</b>. 그런데 다우는 <b class="u">+0.85%</b>(50,018.70, +423p), 러셀2000 <b class="u">+0.57%</b> — <b>돈이 AI에서 헬스케어·유통·가치주로 옮겨간</b> 하루예요.</li>
-<li><b>대신 유통·헬스케어가 확실히 올랐어요</b> — 콜스 <b class="u">+19.48%</b>, 아베크롬비 <b class="u">+19.69%</b>, 딕스 <b class="u">+14.59%</b>, 달러트리 <b class="u">+11.18%</b>가 실적 발표로 급등했고, 암젠 <b class="u">+5.54%</b>·나이키 <b class="u">+5.89%</b>도 올랐어요. 다우를 끌어올린 건 이쪽이에요.</li>
-<li><b>마감 급등 1~3위는 초소형주</b> — 재규어 헬스 <b class="u">+109.24%</b>(1:25 액면병합 첫날+제조 진전), 아칸다 <b class="u">+101.55%</b>(회사 뉴스 없음), 베네피션트 <b class="u">+101.01%</b>(법원이 2억 1,100만 달러 채무 소송 개시 허가). 20곳 중 <b>18곳이 시총 3억 달러 미만</b>이고, 실적·인수 같은 진짜 회사 재료가 있는 건 <b>엠벡타·알타 이큅먼트·알데이라·베네피션트·플래닛 그린·재규어</b> 정도예요.</li>
+<li><b>본장은 반도체 매도가 지수를 눌렀어요</b> — 나스닥100(QQQ) <b class="d">-3.2%</b>, S&amp;P500(SPY) <b class="d">-2.2%</b>, 다우(DIA) <b class="d">-1.5%</b>, 러셀2000(IWM) <b class="d">-1.7%</b>, 공포지수(VIX) <b class="u">31.8 (+21%)</b>. 엔비디아 <b class="d">-6.6%</b>($145), 마이크론 <b class="d">-9%</b>, 샌디스크 <b class="d">-7.7%</b>, 필라델피아 반도체 <b class="d">-5.4%</b>. 이유는 ① 엔비디아 <b>칩 수출규제·경영진 조사</b> 보도 ② <b>AI 인프라 비용</b> 부담 ③ <b>메모리 공급과잉·낸드 가격 하락</b> 전망이에요. 원/달러 <b>1,347원</b>, 코스피 <b class="d">-6.16%</b>(4,697.51).</li>
+<li><b>프리장 1위들은 본장에서 대거 뒤집혔어요</b> — 프리장 +91.8%였던 <b>에라약(RAYA)</b>은 +46.1%로 반토막, +36.7%였던 <b>제타(ZNB)</b>는 <b class="d">-20.4%</b>로 마이너스, +14.7%였던 <b>루프(LOOP)</b>는 <b class="d">-30%</b>, +12.4%였던 <b>그린파워(GP)</b>는 <b class="d">-20.6%</b>가 됐어요. 프리장 상위 20곳 중 <b>8곳이 본장에서 마이너스</b>로 돌아섰고, 살아남은 곳도 오름폭이 대부분 줄었어요. 반대로 프리장 +16%였던 <b>아피메즈(APUS)</b>는 +26%, +26.5%였던 <b>뉴젠(NIVF)</b>은 +36.5%로 <b>더 강해진</b> 쪽도 있어요.</li>
+<li><b>오늘 본장 급등 1위는 넥서스 어드밴스드(NXAT) +108%</b> — 케이맨 제도 법인에 뉴욕·서울에서 움직이고, 9월에 K Wave Media에서 <b>AI 인프라 회사</b>로 개명한 종목이에요. 시총이 <b>216만 달러(약 29억 원)</b>뿐인 초소형이라 3,335만 주가 하루에 손바뀜했어요. 전체 2위는 <b>소미 님이 보유한 뉴로센스(NRSN) +103%</b>($2.23, 장중 $4.63까지)이고, 그다음이 에라약 +46%, 뉴젠 +36%, 알리고스 +35% 순이에요. 뉴로센스는 <b>이스라엘 기업이라 추천·주목 목록에서 빼고</b> 맨 아래에 따로 적었어요.</li>
       </ol>
     </details>
 
     <details class="gist" id="cmp">
-      <summary><span aria-hidden="true">🚀</span> 어제 오른 AI·반도체, 오늘은 얼마나 빠졌나 <span class="chev" aria-hidden="true">▾</span></summary>
-      <div class="facts"><div><span>엔비디아 NVDA</span><b class="d">-5.86% · $155.38</b></div><div><span>마이크론 MU</span><b class="d">-11.01% · $629.79</b></div><div><span>샌디스크 SNDK</span><b class="d">-11.13% · $77.95</b></div><div><span>AMD</span><b class="d">-8.86% · $413.27</b></div><div><span>SK하이닉스(ADR)</span><b class="d">-9.90% · $111.98</b></div><div><span>아이렌 IREN</span><b class="d">-11.54% · $12.95</b></div><div><span>코어위브 CRWV</span><b class="d">-11.85% · $42.61</b></div><div><span>앤트로픽 ANT</span><b class="d">-6.54% · $81.91</b></div><div><span>델 DELL</span><b class="d">-11.83% · $295.28</b></div><div><span>아나로그디바이스 ADI</span><b class="d">-17.37% · $312.95</b></div><div><span>인텔 INTC</span><b class="d">-8.15% · $54.80</b></div><div><span>브로드컴 AVGO</span><b class="d">-3.98% · $301.08</b></div><div><span>스페이스X SPCX</span><b class="d">-5.65% · $125.81</b></div><div><span>휴렛패커드 HPE</span><b class="d">-16.31% · $40.19</b></div><div><span>반도체 3배 SOXL</span><b class="d">-24.55% · $32.60</b></div><div><span>반도체 3배 인버스 SOXS</span><b class="u">+24.13% · $60.96</b></div></div>
-      <p class="src">모두 11/24 정규장 종가 기준(Yahoo Finance·stockanalysis 교차)이에요. 오늘 상승률 상위 20곳은 <b>+31%부터</b>라 이 대형주들은 급등 순위에 안 들어와요 — 대신 <b>어제 많이 오른 종목이 오늘 얼마나 되돌렸는지</b>가 오늘 장의 핵심이에요.</p>
+      <summary><span aria-hidden="true">🌏</span> 오늘 시황 + 프리장 대비 살아남은 곳 <span class="chev" aria-hidden="true">▾</span></summary>
+      <div class="facts"><div><span>나스닥100(QQQ)</span><b class="d">-3.24%</b></div><div><span>S&amp;P500(SPY)</span><b class="d">-2.15%</b></div><div><span>다우(DIA)</span><b class="d">-1.41%</b></div><div><span>러셀2000(IWM)</span><b class="d">-1.68%</b></div><div><span>공포지수(VIX)</span><b class="u">31.83 (+20.8%)</b></div><div><span>원/달러</span><b>1,347.1원</b></div><div><span>코스피</span><b class="d">-6.16% (4,697.51)</b></div><div><span>필라델피아 반도체</span><b class="d">-5.36%</b></div><div><span>비트코인</span><b class="d">-2.04% (7,979만 원)</b></div><div><span>엔비디아</span><b class="d">$145.15 (-6.6%)</b></div></div>
+      <p class="src" style="margin:8px 0 0"><b>시장 분위기 한 줄</b> — 반도체 하나가 무너지면서 지수·환율·코스피가 같이 밀린 날이에요. 이런 날은 <b>실적이 확인된 대형주(HP +10.6%)</b>로 돈이 몰리고, 초소형주는 <b>프리장에 올랐다가 본장에 뒤집히는</b> 패턴이 나와요.</p>
+      <p class="src" style="margin:8px 0 0"><b>프리장(19:44) → 본장(지금)</b> — 프리장 상위 20곳을 그대로 다시 봤어요.</p>
+      <div class="facts"><div><span>에라약</span><b>+91.8% → <b class="u">+46.1%</b></b></div><div><span>휠러</span><b>+68.2% → <b class="u">+31.0%</b></b></div><div><span>세이버원</span><b>+41.6% → <b class="u">+21.2%</b></b></div><div><span>뉴젠</span><b>+26.5% → <b class="u">+36.5%</b></b></div><div><span>아피메즈</span><b>+16.0% → <b class="u">+26.0%</b></b></div><div><span>브랜드인게이지</span><b>+20.0% → <b class="u">+18.2%</b></b></div><div><span>제타</span><b>+36.7% → <b class="d">-20.4%</b></b></div><div><span>루프</span><b>+14.7% → <b class="d">-29.9%</b></b></div><div><span>그린파워</span><b>+12.4% → <b class="d">-20.6%</b></b></div><div><span>아이티테크</span><b>+21.0% → <b class="d">-17.9%</b></b></div></div>
+      <p class="src" style="margin:8px 0 0">프리장 상위 20곳 중 <b>12곳은 플러스 유지, 8곳은 마이너스 전환</b>이에요. 다만 플러스로 남은 12곳 중 <b>8곳은 오름폭이 줄었고</b>, 오름폭이 커진 곳은 아피메즈·뉴젠·이노베이션 베버리지(IBG +11.6%→+12.6%)·본바이오로직스(BBLG +11.5%→+19.4%) <b>4곳</b>뿐이에요. <b>프리장 숫자만 보고 본장에 들어가면 절반은 뒤집힌다</b>는 걸 오늘이 보여줬어요.</p>
     </details>
 
     <section class="ext" id="ext" hidden>
       <h3>🔎 ‘<span id="extq"></span>’ 실시간 확인</h3>
-      <p>이 리포트는 11/24(화) 미국 정규장 마감(한국시간 11/25 06:00) 기준이에요. 지금 가격은 아래에서 바로 보세요.</p>
+      <p>이 리포트는 11/25(수) <b>미국 본장 초반</b>(한국시간 11/26 00:12 전후) 기준이에요. 지금 가격은 아래에서 바로 보세요.</p>
       <div class="btns">
         <a id="lkToss" href="https://www.tossinvest.com/" target="_blank" rel="noopener">토스증권 <span class="ar">↗</span></a>
         <a id="lkNaver" href="https://m.search.naver.com/" target="_blank" rel="noopener">네이버 <span class="ar">↗</span></a>
@@ -291,891 +264,780 @@
     </section>
 
 <ul class="list" id="listUp">
-<li class="ghead"><b>⚠️ 초소형주 18곳 포함</b> 11/24 정규장 마감 +31~109% 오른 20곳<span><button type="button" class="gf">⚠️ 초소형 18곳만 보기 →</button></span></li>
-<li class="row" role="button" tabindex="0" data-i="0" data-key="JAGX" data-s="재규어 헬스 JAGX JAGX   위장질환 처방약 초소형주" aria-label="재규어 헬스 +109.24% 상세 보기"><span class="num">1</span><div class="nm"><b>재규어 헬스 <em class="chip">⚠️ 초소형</em></b><span>JAGX · 위장질환 처방약</span></div><span class="pct u">+109.24%</span><span class="sig">🔴</span></li>
-<li class="row" role="button" tabindex="0" data-i="1" data-key="AKAN" data-s="아칸다 AKAN AKAN   광케이블 통신타워 초소형주" aria-label="아칸다 +101.55% 상세 보기"><span class="num">2</span><div class="nm"><b>아칸다 <em class="chip">⚠️ 초소형</em></b><span>AKAN · 광케이블·통신타워</span></div><span class="pct u">+101.55%</span><span class="sig">🔴</span></li>
-<li class="row" role="button" tabindex="0" data-i="2" data-key="BENF" data-s="베네피션트 BENF BENF   대체자산 금융 초소형주" aria-label="베네피션트 +101.01% 상세 보기"><span class="num">3</span><div class="nm"><b>베네피션트 <em class="chip">⚠️ 초소형</em></b><span>BENF · 대체자산 금융</span></div><span class="pct u">+101.01%</span><span class="sig">🔴</span></li>
-<li class="row" role="button" tabindex="0" data-i="3" data-key="LVWR" data-s="라이브와이어 LVWR LVWR   전기 오토바이" aria-label="라이브와이어 +90.80% 상세 보기"><span class="num">4</span><div class="nm"><b>라이브와이어</b><span>LVWR · 전기 오토바이</span></div><span class="pct u">+90.80%</span><span class="sig">🟡</span></li>
-<li class="row" role="button" tabindex="0" data-i="4" data-key="APUS" data-s="아피메즈 파마슈티컬스 US APUS APUS   블록체인 디지털자산 초소형주" aria-label="아피메즈 파마슈티컬스 US +54.00% 상세 보기"><span class="num">5</span><div class="nm"><b>아피메즈 파마슈티컬스 US <em class="chip">⚠️ 초소형</em></b><span>APUS · 블록체인·디지털자산</span></div><span class="pct u">+54.00%</span><span class="sig">🔴</span></li>
-<li class="row" role="button" tabindex="0" data-i="5" data-key="RMSG" data-s="리얼 메신저 RMSG RMSG   부동산 중개 앱 초소형주" aria-label="리얼 메신저 +49.96% 상세 보기"><span class="num">6</span><div class="nm"><b>리얼 메신저 <em class="chip">⚠️ 초소형</em></b><span>RMSG · 부동산 중개 앱</span></div><span class="pct u">+49.96%</span><span class="sig">🔴</span></li>
-<li class="row" role="button" tabindex="0" data-i="6" data-key="GLXG" data-s="갤럭시 페이롤 GLXG GLXG   홍콩 급여 HR 초소형주" aria-label="갤럭시 페이롤 +48.57% 상세 보기"><span class="num">7</span><div class="nm"><b>갤럭시 페이롤 <em class="chip">⚠️ 초소형</em></b><span>GLXG · 홍콩 급여·HR</span></div><span class="pct u">+48.57%</span><span class="sig">🔴</span></li>
-<li class="row" role="button" tabindex="0" data-i="7" data-key="FGL" data-s="파운더 그룹 FGL FGL   말레이시아 태양광 초소형주" aria-label="파운더 그룹 +43.15% 상세 보기"><span class="num">8</span><div class="nm"><b>파운더 그룹 <em class="chip">⚠️ 초소형</em></b><span>FGL · 말레이시아 태양광</span></div><span class="pct u">+43.15%</span><span class="sig">🔴</span></li>
-<li class="row" role="button" tabindex="0" data-i="8" data-key="PLAG" data-s="플래닛 그린 PLAG PLAG   중국 차 건강식품 초소형주" aria-label="플래닛 그린 +41.84% 상세 보기"><span class="num">9</span><div class="nm"><b>플래닛 그린 <em class="chip">⚠️ 초소형</em></b><span>PLAG · 중국 차·건강식품</span></div><span class="pct u">+41.84%</span><span class="sig">🔴</span></li>
-<li class="row" role="button" tabindex="0" data-i="9" data-key="LGHL" data-s="라이온 그룹 홀딩스 LGHL LGHL   선물 CFD 중개 초소형주" aria-label="라이온 그룹 홀딩스 +41.74% 상세 보기"><span class="num">10</span><div class="nm"><b>라이온 그룹 홀딩스 <em class="chip">⚠️ 초소형</em></b><span>LGHL · 선물·CFD 중개</span></div><span class="pct u">+41.74%</span><span class="sig">🔴</span></li>
-<li class="row" role="button" tabindex="0" data-i="10" data-key="SMXT" data-s="솔라맥스 테크놀로지 SMXT SMXT   태양광 LED 초소형주" aria-label="솔라맥스 테크놀로지 +40.82% 상세 보기"><span class="num">11</span><div class="nm"><b>솔라맥스 테크놀로지 <em class="chip">⚠️ 초소형</em></b><span>SMXT · 태양광·LED</span></div><span class="pct u">+40.82%</span><span class="sig">🔴</span></li>
-<li class="row" role="button" tabindex="0" data-i="11" data-key="EMBC" data-s="엠벡타 EMBC EMBC   인슐린 주사기" aria-label="엠벡타 +40.64% 상세 보기"><span class="num">12</span><div class="nm"><b>엠벡타</b><span>EMBC · 인슐린 주사기</span></div><span class="pct u">+40.64%</span><span class="sig">🟢</span></li>
-<li class="row" role="button" tabindex="0" data-i="12" data-key="IBIO" data-s="아이바이오 IBIO IBIO   비만 항체 신약 초소형주" aria-label="아이바이오 +39.57% 상세 보기"><span class="num">13</span><div class="nm"><b>아이바이오 <em class="chip">⚠️ 초소형</em></b><span>IBIO · 비만 항체 신약</span></div><span class="pct u">+39.57%</span><span class="sig">🟡</span></li>
-<li class="row" role="button" tabindex="0" data-i="13" data-key="ALDX" data-s="알데이라 테라퓨틱스 ALDX ALDX   안구건조증 신약 초소형주" aria-label="알데이라 테라퓨틱스 +36.84% 상세 보기"><span class="num">14</span><div class="nm"><b>알데이라 테라퓨틱스 <em class="chip">⚠️ 초소형</em></b><span>ALDX · 안구건조증 신약</span></div><span class="pct u">+36.84%</span><span class="sig">🟡</span></li>
-<li class="row" role="button" tabindex="0" data-i="14" data-key="ONFO" data-s="온폴리오 홀딩스 ONFO ONFO   온라인 사업 인수 초소형주" aria-label="온폴리오 홀딩스 +35.34% 상세 보기"><span class="num">15</span><div class="nm"><b>온폴리오 홀딩스 <em class="chip">⚠️ 초소형</em></b><span>ONFO · 온라인 사업 인수</span></div><span class="pct u">+35.34%</span><span class="sig">🔴</span></li>
-<li class="row" role="button" tabindex="0" data-i="15" data-key="TNYA" data-s="테나야 테라퓨틱스 TNYA TNYA   심장 유전자치료 초소형주" aria-label="테나야 테라퓨틱스 +34.62% 상세 보기"><span class="num">16</span><div class="nm"><b>테나야 테라퓨틱스 <em class="chip">⚠️ 초소형</em></b><span>TNYA · 심장 유전자치료</span></div><span class="pct u">+34.62%</span><span class="sig">🟡</span></li>
-<li class="row" role="button" tabindex="0" data-i="16" data-key="MTR" data-s="메사 로열티 트러스트 MTR MTR   유전 가스 로열티 초소형주" aria-label="메사 로열티 트러스트 +34.59% 상세 보기"><span class="num">17</span><div class="nm"><b>메사 로열티 트러스트 <em class="chip">⚠️ 초소형</em></b><span>MTR · 유전·가스 로열티</span></div><span class="pct u">+34.59%</span><span class="sig">🔴</span></li>
-<li class="row" role="button" tabindex="0" data-i="17" data-key="ALTG" data-s="알타 이큅먼트 ALTG ALTG   산업장비 딜러 초소형주" aria-label="알타 이큅먼트 +33.19% 상세 보기"><span class="num">18</span><div class="nm"><b>알타 이큅먼트 <em class="chip">⚠️ 초소형</em></b><span>ALTG · 산업장비 딜러</span></div><span class="pct u">+33.19%</span><span class="sig">🟢</span></li>
-<li class="row" role="button" tabindex="0" data-i="18" data-key="BDRX" data-s="바이오덱사 BDRX BDRX   항암 3상 초소형주" aria-label="바이오덱사 +32.65% 상세 보기"><span class="num">19</span><div class="nm"><b>바이오덱사 <em class="chip">⚠️ 초소형</em></b><span>BDRX · 항암 3상</span></div><span class="pct u">+32.65%</span><span class="sig">🔴</span></li>
-<li class="row" role="button" tabindex="0" data-i="19" data-key="ALXO" data-s="ALX 온콜로지 ALXO ALXO   CD47 항암 초소형주" aria-label="ALX 온콜로지 +31.03% 상세 보기"><span class="num">20</span><div class="nm"><b>ALX 온콜로지 <em class="chip">⚠️ 초소형</em></b><span>ALXO · CD47 항암</span></div><span class="pct u">+31.03%</span><span class="sig">🟡</span></li>
+<li class="ghead"><b>⚠️ 초소형주 15곳 포함</b> 11/25 본장 +10~108% 오른 20곳<span><button type="button" class="gf">⚠️ 초소형 15곳만 보기 →</button></span></li>
+<li class="row" role="button" tabindex="0" data-i="0" data-key="NXAT" data-s="넥서스 어드밴스드 테크놀로지스 NXAT NXAT AI 데이터센터·GPU 인프라 투자 초소형주" aria-label="넥서스 어드밴스드 테크놀로지스 +108.44% 상세 보기"><span class="num">1</span><div class="nm"><b>넥서스 어드밴스드 테크놀로지스 <em class="chip">⚠️ 초소형</em></b><span>NXAT · AI 데이터센터·GPU 인프라 투자</span></div><span class="pct u">+108.44%</span><span class="sig">🔴</span></li>
+<li class="row" role="button" tabindex="0" data-i="1" data-key="RAYA" data-s="에라약 파워 솔루션 RAYA RAYA 전력 인버터·발전기 초소형주" aria-label="에라약 파워 솔루션 +46.13% 상세 보기"><span class="num">2</span><div class="nm"><b>에라약 파워 솔루션 <em class="chip">⚠️ 초소형</em></b><span>RAYA · 전력 인버터·발전기</span></div><span class="pct u">+46.13%</span><span class="sig">🔴</span></li>
+<li class="row" role="button" tabindex="0" data-i="2" data-key="NIVF" data-s="뉴젠아이브이에프 NIVF NIVF 불임·시험관 시술(IVF) 초소형주" aria-label="뉴젠아이브이에프 +36.47% 상세 보기"><span class="num">3</span><div class="nm"><b>뉴젠아이브이에프 <em class="chip">⚠️ 초소형</em></b><span>NIVF · 불임·시험관 시술(IVF)</span></div><span class="pct u">+36.47%</span><span class="sig">🔴</span></li>
+<li class="row" role="button" tabindex="0" data-i="3" data-key="ALGS" data-s="알리고스 테라퓨틱스 ALGS ALGS B형간염·MASH 신약 초소형주" aria-label="알리고스 테라퓨틱스 +34.90% 상세 보기"><span class="num">4</span><div class="nm"><b>알리고스 테라퓨틱스 <em class="chip">⚠️ 초소형</em></b><span>ALGS · B형간염·MASH 신약</span></div><span class="pct u">+34.90%</span><span class="sig">🔴</span></li>
+<li class="row" role="button" tabindex="0" data-i="4" data-key="WHLR" data-s="휠러 리얼 에스테이트 WHLR WHLR 쇼핑센터 리츠(부동산 임대) 초소형주" aria-label="휠러 리얼 에스테이트 +30.95% 상세 보기"><span class="num">5</span><div class="nm"><b>휠러 리얼 에스테이트 <em class="chip">⚠️ 초소형</em></b><span>WHLR · 쇼핑센터 리츠(부동산 임대)</span></div><span class="pct u">+30.95%</span><span class="sig">🔴</span></li>
+<li class="row" role="button" tabindex="0" data-i="5" data-key="APUS" data-s="아피메즈 파마슈티컬스 US APUS APUS 의료기기 → 블록체인·디지털자산 초소형주" aria-label="아피메즈 파마슈티컬스 US +25.97% 상세 보기"><span class="num">6</span><div class="nm"><b>아피메즈 파마슈티컬스 US <em class="chip">⚠️ 초소형</em></b><span>APUS · 의료기기 → 블록체인·디지털자산</span></div><span class="pct u">+25.97%</span><span class="sig">🟡</span></li>
+<li class="row" role="button" tabindex="0" data-i="6" data-key="EGG" data-s="에니그매틱 EGG EGG 해외 진출 기업서비스" aria-label="에니그매틱 +21.29% 상세 보기"><span class="num">7</span><div class="nm"><b>에니그매틱</b><span>EGG · 해외 진출 기업서비스</span></div><span class="pct u">+21.29%</span><span class="sig">🟡</span></li>
+<li class="row" role="button" tabindex="0" data-i="7" data-key="GLXG" data-s="갤럭시 페이롤 그룹 GLXG GLXG 급여 대행·인사 서비스 초소형주" aria-label="갤럭시 페이롤 그룹 +19.23% 상세 보기"><span class="num">8</span><div class="nm"><b>갤럭시 페이롤 그룹 <em class="chip">⚠️ 초소형</em></b><span>GLXG · 급여 대행·인사 서비스</span></div><span class="pct u">+19.23%</span><span class="sig">🔴</span></li>
+<li class="row" role="button" tabindex="0" data-i="8" data-key="ATOS" data-s="아토사 테라퓨틱스 ATOS ATOS 유방암 예방·치료제 초소형주" aria-label="아토사 테라퓨틱스 +18.97% 상세 보기"><span class="num">9</span><div class="nm"><b>아토사 테라퓨틱스 <em class="chip">⚠️ 초소형</em></b><span>ATOS · 유방암 예방·치료제</span></div><span class="pct u">+18.97%</span><span class="sig">🔴</span></li>
+<li class="row" role="button" tabindex="0" data-i="9" data-key="BNAI" data-s="브랜드 인게이지먼트 네트워크 BNAI BNAI AI 아바타·광고 플랫폼" aria-label="브랜드 인게이지먼트 네트워크 +18.20% 상세 보기"><span class="num">10</span><div class="nm"><b>브랜드 인게이지먼트 네트워크</b><span>BNAI · AI 아바타·광고 플랫폼</span></div><span class="pct u">+18.20%</span><span class="sig">🟡</span></li>
+<li class="row" role="button" tabindex="0" data-i="10" data-key="GOAI" data-s="에바 라이브 GOAI GOAI AI 아바타 라이브스트리밍 초소형주" aria-label="에바 라이브 +17.86% 상세 보기"><span class="num">11</span><div class="nm"><b>에바 라이브 <em class="chip">⚠️ 초소형</em></b><span>GOAI · AI 아바타 라이브스트리밍</span></div><span class="pct u">+17.86%</span><span class="sig">🔴</span></li>
+<li class="row" role="button" tabindex="0" data-i="11" data-key="CNXU" data-s="코넥슈 사이언스 CNXU CNXU 창상(상처) 치료 플랫폼 초소형주" aria-label="코넥슈 사이언스 +17.33% 상세 보기"><span class="num">12</span><div class="nm"><b>코넥슈 사이언스 <em class="chip">⚠️ 초소형</em></b><span>CNXU · 창상(상처) 치료 플랫폼</span></div><span class="pct u">+17.33%</span><span class="sig">🔴</span></li>
+<li class="row" role="button" tabindex="0" data-i="12" data-key="OMH" data-s="오마이홈 OMH OMH 부동산 거래 플랫폼 초소형주" aria-label="오마이홈 +15.28% 상세 보기"><span class="num">13</span><div class="nm"><b>오마이홈 <em class="chip">⚠️ 초소형</em></b><span>OMH · 부동산 거래 플랫폼</span></div><span class="pct u">+15.28%</span><span class="sig">🔴</span></li>
+<li class="row" role="button" tabindex="0" data-i="13" data-key="CGTX" data-s="코그니션 테라퓨틱스 CGTX CGTX 알츠하이머·치매 신약 초소형주" aria-label="코그니션 테라퓨틱스 +15.05% 상세 보기"><span class="num">14</span><div class="nm"><b>코그니션 테라퓨틱스 <em class="chip">⚠️ 초소형</em></b><span>CGTX · 알츠하이머·치매 신약</span></div><span class="pct u">+15.05%</span><span class="sig">🔴</span></li>
+<li class="row" role="button" tabindex="0" data-i="14" data-key="GTBP" data-s="GT 바이오파마 GTBP GTBP NK세포 항암 치료제 초소형주" aria-label="GT 바이오파마 +14.38% 상세 보기"><span class="num">15</span><div class="nm"><b>GT 바이오파마 <em class="chip">⚠️ 초소형</em></b><span>GTBP · NK세포 항암 치료제</span></div><span class="pct u">+14.38%</span><span class="sig">🔴</span></li>
+<li class="row" role="button" tabindex="0" data-i="15" data-key="MEDS" data-s="데이터메즈 AI MEDS MEDS 암 혈액검사 AI 초소형주" aria-label="데이터메즈 AI +12.16% 상세 보기"><span class="num">16</span><div class="nm"><b>데이터메즈 AI <em class="chip">⚠️ 초소형</em></b><span>MEDS · 암 혈액검사 AI</span></div><span class="pct u">+12.16%</span><span class="sig">🟡</span></li>
+<li class="row" role="button" tabindex="0" data-i="16" data-key="FFAI" data-s="패러데이 퓨처 FFAI FFAI 전기차 초소형주" aria-label="패러데이 퓨처 +11.72% 상세 보기"><span class="num">17</span><div class="nm"><b>패러데이 퓨처 <em class="chip">⚠️ 초소형</em></b><span>FFAI · 전기차</span></div><span class="pct u">+11.72%</span><span class="sig">🔴</span></li>
+<li class="row" role="button" tabindex="0" data-i="17" data-key="AGLT" data-s="어질리티 로보틱스 AGLT AGLT 휴머노이드(인간형) 로봇" aria-label="어질리티 로보틱스 +11.32% 상세 보기"><span class="num">18</span><div class="nm"><b>어질리티 로보틱스</b><span>AGLT · 휴머노이드(인간형) 로봇</span></div><span class="pct u">+11.32%</span><span class="sig">🟡</span></li>
+<li class="row" role="button" tabindex="0" data-i="18" data-key="HPQ" data-s="HP HPQ HPQ PC·프린터" aria-label="HP +10.56% 상세 보기"><span class="num">19</span><div class="nm"><b>HP</b><span>HPQ · PC·프린터</span></div><span class="pct u">+10.56%</span><span class="sig">🟢</span></li>
+<li class="row" role="button" tabindex="0" data-i="19" data-key="SWRD" data-s="스튜어즈 SWRD SWRD 금융업" aria-label="스튜어즈 +10.53% 상세 보기"><span class="num">20</span><div class="nm"><b>스튜어즈</b><span>SWRD · 금융업</span></div><span class="pct u">+10.53%</span><span class="sig">🟡</span></li>
+<li class="ghead"><b>🇮🇱 이스라엘 기업이라 제외함</b> 오늘 급등 상위권에 있었지만 소미 님 지시대로 후보 목록에서는 뺐어요<span>아래 3곳은 참고용</span></li>
+<li class="row" role="button" tabindex="0" data-i="20" data-key="NRSN" data-s="뉴로센스 테라퓨틱스 NRSN NRSN ALS(루게릭병) 신약" aria-label="뉴로센스 테라퓨틱스 +102.73% 상세 보기"><span class="num">제외</span><div class="nm"><b>뉴로센스 테라퓨틱스 <em class="chip">⚠️ 초소형</em></b><span>NRSN · ALS(루게릭병) 신약</span></div><span class="pct u">+102.73%</span><span class="sig">🔴</span></li>
+<li class="row" role="button" tabindex="0" data-i="21" data-key="SVRE" data-s="세이버원 SVRE SVRE 운전자 주의분산 방지 장치" aria-label="세이버원 +21.24% 상세 보기"><span class="num">제외</span><div class="nm"><b>세이버원 <em class="chip">⚠️ 초소형</em></b><span>SVRE · 운전자 주의분산 방지 장치</span></div><span class="pct u">+21.24%</span><span class="sig">🟡</span></li>
+<li class="row" role="button" tabindex="0" data-i="22" data-key="BLRX" data-s="바이오라인Rx BLRX BLRX 항암·방사선 치료" aria-label="바이오라인Rx +13.09% 상세 보기"><span class="num">제외</span><div class="nm"><b>바이오라인Rx <em class="chip">⚠️ 초소형</em></b><span>BLRX · 항암·방사선 치료</span></div><span class="pct u">+13.09%</span><span class="sig">🔴</span></li>
 </ul>
 
 <ul class="list" id="listKr" hidden>
-<li class="ghead"><b>🇰🇷 서학개미가 어제 가장 많이 산 16곳</b> 토스증권 해외 거래대금 순 · 11/25 07:04 기준<span>🔥 1위 SOXL · 2위 SOXS · 3위 델</span></li>
-<li class="row" role="button" tabindex="0" data-k="0" data-key="SOXL" data-s="반도체 3배 SOXL 반도체" aria-label="반도체 3배 -24.55% 상세 보기"><span class="num">1</span><div class="nm"><b>반도체 3배</b><span>SOXL · 레버리지 ETF</span></div><span class="pct d">-24.55%</span><span class="sig">›</span></li>
-<li class="row" role="button" tabindex="0" data-k="1" data-key="SOXS" data-s="반도체 3배 인버스 SOXS 반도체" aria-label="반도체 3배 인버스 +24.13% 상세 보기"><span class="num">2</span><div class="nm"><b>반도체 3배 인버스</b><span>SOXS · 레버리지 ETF</span></div><span class="pct u">+24.13%</span><span class="sig">›</span></li>
-<li class="row" role="button" tabindex="0" data-k="2" data-key="DELL" data-s="델 테크놀로지스 DELL 컴퓨터·주변기기" aria-label="델 테크놀로지스 -11.83% 상세 보기"><span class="num">3</span><div class="nm"><b>델 테크놀로지스</b><span>DELL</span></div><span class="pct d">-11.83%</span><span class="sig">›</span></li>
-<li class="row" role="button" tabindex="0" data-k="3" data-key="NVDA" data-s="엔비디아 NVDA 반도체(팹리스)" aria-label="엔비디아 -5.86% 상세 보기"><span class="num">4</span><div class="nm"><b>엔비디아</b><span>NVDA</span></div><span class="pct d">-5.86%</span><span class="sig">›</span></li>
-<li class="row" role="button" tabindex="0" data-k="4" data-key="AMBA" data-s="암바렐라 AMBA 반도체(팹리스)" aria-label="암바렐라 -19.96% 상세 보기"><span class="num">5</span><div class="nm"><b>암바렐라</b><span>AMBA</span></div><span class="pct d">-19.96%</span><span class="sig">›</span></li>
-<li class="row" role="button" tabindex="0" data-k="5" data-key="GDRX" data-s="굿알엑스 홀딩스 GDRX 의료서비스" aria-label="굿알엑스 홀딩스 -0.99% 상세 보기"><span class="num">6</span><div class="nm"><b>굿알엑스 홀딩스</b><span>GDRX</span></div><span class="pct d">-0.99%</span><span class="sig">›</span></li>
-<li class="row" role="button" tabindex="0" data-k="6" data-key="MU" data-s="마이크론 테크놀로지 MU 종합반도체" aria-label="마이크론 테크놀로지 -11.01% 상세 보기"><span class="num">7</span><div class="nm"><b>마이크론 테크놀로지</b><span>MU</span></div><span class="pct d">-11.01%</span><span class="sig">›</span></li>
-<li class="row" role="button" tabindex="0" data-k="7" data-key="SPCX" data-s="스페이스X SPCX 우주항공" aria-label="스페이스X -5.65% 상세 보기"><span class="num">8</span><div class="nm"><b>스페이스X</b><span>SPCX</span></div><span class="pct d">-5.65%</span><span class="sig">›</span></li>
-<li class="row" role="button" tabindex="0" data-k="8" data-key="KORU" data-s="한국 3배 KORU 한국지수" aria-label="한국 3배 -10.77% 상세 보기"><span class="num">9</span><div class="nm"><b>한국 3배</b><span>KORU · 레버리지 ETF</span></div><span class="pct d">-10.77%</span><span class="sig">›</span></li>
-<li class="row" role="button" tabindex="0" data-k="9" data-key="SNDK" data-s="샌디스크 SNDK 종합반도체" aria-label="샌디스크 -11.13% 상세 보기"><span class="num">10</span><div class="nm"><b>샌디스크</b><span>SNDK</span></div><span class="pct d">-11.13%</span><span class="sig">›</span></li>
-<li class="row" role="button" tabindex="0" data-k="10" data-key="TQQQ" data-s="나스닥 3배 TQQQ IT" aria-label="나스닥 3배 -5.93% 상세 보기"><span class="num">11</span><div class="nm"><b>나스닥 3배</b><span>TQQQ · 레버리지 ETF</span></div><span class="pct d">-5.93%</span><span class="sig">›</span></li>
-<li class="row" role="button" tabindex="0" data-k="11" data-key="ANT" data-s="앤트로픽 ANT 소프트웨어(AI)" aria-label="앤트로픽 -6.54% 상세 보기"><span class="num">12</span><div class="nm"><b>앤트로픽</b><span>ANT</span></div><span class="pct d">-6.54%</span><span class="sig">›</span></li>
-<li class="row" role="button" tabindex="0" data-k="12" data-key="AMD" data-s="AMD AMD 반도체(팹리스)" aria-label="AMD -8.86% 상세 보기"><span class="num">13</span><div class="nm"><b>AMD</b><span>AMD · CPU·AI 가속기</span></div><span class="pct d">-8.86%</span><span class="sig">›</span></li>
-<li class="row" role="button" tabindex="0" data-k="13" data-key="SOXX" data-s="반도체 ETF SOXX 반도체" aria-label="반도체 ETF -8.27% 상세 보기"><span class="num">14</span><div class="nm"><b>반도체 ETF</b><span>SOXX · ETF</span></div><span class="pct d">-8.27%</span><span class="sig">›</span></li>
-<li class="row" role="button" tabindex="0" data-k="14" data-key="SKHY" data-s="SK하이닉스(ADR) SKHY 종합반도체" aria-label="SK하이닉스(ADR) -9.90% 상세 보기"><span class="num">15</span><div class="nm"><b>SK하이닉스(ADR)</b><span>SKHY</span></div><span class="pct d">-9.90%</span><span class="sig">›</span></li>
-<li class="row" role="button" tabindex="0" data-k="15" data-key="IREN" data-s="아이렌 IREN 암호화폐·AI인프라" aria-label="아이렌 -11.54% 상세 보기"><span class="num">16</span><div class="nm"><b>아이렌</b><span>IREN</span></div><span class="pct d">-11.54%</span><span class="sig">›</span></li>
+<li class="ghead"><b>🇰🇷 서학개미 인기·거래대금 상위 11곳</b> 토스증권 관심종목 TOP10(이스라엘 제외) + 거래대금 상위 · 11/26 00:05 기준<span>🔥 1위 NXAT · 2위 SOXL · 3위 SOXS</span></li>
+<li class="row" role="button" tabindex="0" data-k="0" data-key="NXAT" data-s="넥서스 어드밴스드 테크놀로지스 NXAT NXAT AI 인프라 투자" aria-label="넥서스 어드밴스드 테크놀로지스 +108.44% 상세 보기"><span class="num">1</span><div class="nm"><b>넥서스 어드밴스드 테크놀로지스</b><span>NXAT · AI 인프라 투자</span></div><span class="pct u">+108.44%</span><span class="sig">›</span></li>
+<li class="row" role="button" tabindex="0" data-k="1" data-key="SOXL" data-s="반도체 3배 레버리지 SOXL SOXL 필라델피아 반도체 3배" aria-label="반도체 3배 레버리지 -16.50% 상세 보기"><span class="num">2</span><div class="nm"><b>반도체 3배 레버리지</b><span>SOXL · 필라델피아 반도체 3배</span></div><span class="pct d">-16.50%</span><span class="sig">›</span></li>
+<li class="row" role="button" tabindex="0" data-k="2" data-key="SOXS" data-s="반도체 3배 인버스 SOXS SOXS 필라델피아 반도체 3배 하락" aria-label="반도체 3배 인버스 +16.71% 상세 보기"><span class="num">3</span><div class="nm"><b>반도체 3배 인버스</b><span>SOXS · 필라델피아 반도체 3배 하락</span></div><span class="pct u">+16.71%</span><span class="sig">›</span></li>
+<li class="row" role="button" tabindex="0" data-k="3" data-key="NVDA" data-s="엔비디아 NVDA NVDA AI 반도체" aria-label="엔비디아 -6.59% 상세 보기"><span class="num">4</span><div class="nm"><b>엔비디아</b><span>NVDA · AI 반도체</span></div><span class="pct d">-6.59%</span><span class="sig">›</span></li>
+<li class="row" role="button" tabindex="0" data-k="4" data-key="ANT" data-s="앤트로픽 ANT ANT AI 모델(클로드)" aria-label="앤트로픽 -3.66% 상세 보기"><span class="num">5</span><div class="nm"><b>앤트로픽</b><span>ANT · AI 모델(클로드)</span></div><span class="pct d">-3.66%</span><span class="sig">›</span></li>
+<li class="row" role="button" tabindex="0" data-k="5" data-key="BNAI" data-s="브랜드 인게이지먼트 네트워크 BNAI BNAI AI 아바타·광고" aria-label="브랜드 인게이지먼트 네트워크 +18.20% 상세 보기"><span class="num">6</span><div class="nm"><b>브랜드 인게이지먼트 네트워크</b><span>BNAI · AI 아바타·광고</span></div><span class="pct u">+18.20%</span><span class="sig">›</span></li>
+<li class="row" role="button" tabindex="0" data-k="6" data-key="SPCX" data-s="스페이스X SPCX SPCX 우주 발사·위성" aria-label="스페이스X -7.02% 상세 보기"><span class="num">7</span><div class="nm"><b>스페이스X</b><span>SPCX · 우주 발사·위성</span></div><span class="pct d">-7.02%</span><span class="sig">›</span></li>
+<li class="row" role="button" tabindex="0" data-k="7" data-key="TQQQ" data-s="나스닥 3배 레버리지 TQQQ TQQQ 나스닥100 3배" aria-label="나스닥 3배 레버리지 -9.92% 상세 보기"><span class="num">8</span><div class="nm"><b>나스닥 3배 레버리지</b><span>TQQQ · 나스닥100 3배</span></div><span class="pct d">-9.92%</span><span class="sig">›</span></li>
+<li class="row" role="button" tabindex="0" data-k="8" data-key="FFAI" data-s="패러데이 퓨처 FFAI FFAI 전기차" aria-label="패러데이 퓨처 +11.72% 상세 보기"><span class="num">9</span><div class="nm"><b>패러데이 퓨처</b><span>FFAI · 전기차</span></div><span class="pct u">+11.72%</span><span class="sig">›</span></li>
+<li class="row" role="button" tabindex="0" data-k="9" data-key="QQQM" data-s="나스닥100 (QQQM) QQQM QQQM 나스닥100 지수 ETF" aria-label="나스닥100 (QQQM) -3.28% 상세 보기"><span class="num">10</span><div class="nm"><b>나스닥100 (QQQM)</b><span>QQQM · 나스닥100 지수 ETF</span></div><span class="pct d">-3.28%</span><span class="sig">›</span></li>
+<li class="row" role="button" tabindex="0" data-k="10" data-key="SQQQ" data-s="나스닥 3배 인버스 SQQQ SQQQ 나스닥100 3배 하락" aria-label="나스닥 3배 인버스 +9.25% 상세 보기"><span class="num">11</span><div class="nm"><b>나스닥 3배 인버스</b><span>SQQQ · 나스닥100 3배 하락</span></div><span class="pct u">+9.25%</span><span class="sig">›</span></li>
 </ul>
-<p class="empty" id="empty" hidden></p>
-
-    <footer class="foot">
-      <p><b>언제 기준인가요</b> — 2026년 11월 24일(화) 미국 <b>정규장 마감</b>(한국시간 11/25 수요일 <b>06:00</b>)이에요. 06:00~10:00 애프터마켓에서 움직인 것은 따로 적었어요. 11/24(화)은 <b>정상 개장일</b>이었고, 추수감사절은 <b>11/26(목)</b> 휴장, 11/27(금)은 한국시간 11/28 새벽 3시 조기 마감이에요.</p>
-      <p><b>오늘 시장 분위기</b> — 나스닥 <b class="d">-1.48%</b>(23,733.54), S&amp;P500 <b class="d">-0.50%</b>(7,201.09), 다우 <b class="u">+0.85%</b>(50,018.70, +423.39p), 러셀2000 <b class="u">+0.57%</b>(2,684.94), VIX <b>26.36</b>(-1.0%), 필라델피아 반도체 <b class="d">-7.88%</b>(8,832.50). 원/달러 <b>1,342.5원</b>(-4.1원), 달러인덱스 103.82, 미국 10년물 4.90%, 금 <b class="d">-2.79%</b>($3,549.70), WTI 원유 <b class="u">+1.57%</b>($81.43), 비트코인 <b class="d">-2.26%</b>($59,829). 코스피는 어제 <b class="u">+6.31%</b>(5,006.03)로 5,000선을 넘었어요.</p>
-      <p><b>왜 이렇게 움직였나</b> — ① 어제 <b>젠슨 황 엔비디아 CEO 복귀</b>로 나스닥이 +6.50%(2025년 4월 이후 최대) 급등했는데, 하루 만에 <b>차익 실현</b>이 나왔어요. ② <b>아나로그디바이스 -17.37%</b>(실적), <b>휴렛패커드 -16.31%</b>(좋은 실적에도 '재료 소멸'), 메모리 3인방 -10%대(메모리 가격 우려). ③ 트럼프 행정부가 <b>중국을 포함한 수십 개국에 추가 관세</b>를 준비 중이라는 보도(WSJ)와 베선트 재무장관의 <b>이란 제재</b> 발표. ④ 시장은 <b>12월 Fed 금리 인상 확률을 95%</b>로 보고 있어요(인플레 우려) — 금리 인상은 주식에 부담이에요. ⑤ 반대로 <b>유통 실적 서프라이즈</b>(콜스·아베크롬비·달러트리·딕스)와 <b>헬스케어</b>로 돈이 옮겨가 다우·러셀을 끌어올렸어요.</p>
-      <p><b>마감 뒤(애프터마켓)에 움직인 것</b> — <b>델</b>이 사상 최대 실적(매출 549억 달러·조정 EPS 9.45달러, AI 서버 잔고 1,323억 달러)을 내고 <b class="u">+3%</b>대 반등, <b>굿알엑스 +28%</b>(3분기 beat·가이던스 상향), 반대로 <b>암바렐라 -30%대</b>(4분기 가이던스 7,000만~7,500만 달러, 예상의 3분의 2). <b>HP(HPQ)</b>도 시간외에서 +14%대(발표 직후)로 크게 올랐어요.</p>
-      <p><b>놓친 움직임</b> — 20위 밖에도 <b>아멘텀(AMTM) +20.1%</b>(4분기 실적), <b>카이메라(KYMR) +15.66%</b>(습진 경구약 데이터), <b>인스메드(INSM) +14.13%</b>(사노피 인수), <b>사노피(SNY) +10.97%</b>, <b>프렐류드(PRLD) +28.6%</b>, <b>체인스 디지털(CD) +30.4%</b>가 있었어요. 반대로 <b>HPE -16.31%</b>처럼 좋은 실적에도 빠진 종목이 많았어요.</p>
-      <p><b>⚠️ 초소형 표시</b>가 붙은 <b>18곳</b>은 시총이 3억 달러(약 4,000억 원)가 안 되는 회사예요. 재규어 헬스는 <b>1:25 액면병합 첫날</b>, 라이온 그룹은 <b>발행주식 4만 6,000주</b>, 파운더 그룹은 <b>2026년에 100:1 병합을 두 번</b> 한 회사예요. 오늘의 +100%는 '회사가 좋아져서'가 아니라 <b>'주식 수가 적어서'</b>인 경우가 많아요.</p>
-      <p><b>⚠️ 오늘의 특별 경고</b> — 오늘 급등 상위에는 <b>액면병합·저유동성으로 등락률이 왜곡된 종목</b>이 섞여 있어요. 솔라맥스는 하루 <b>2만 8,000주</b>(거래대금 9만 5,000달러)만 오갔고, 메사 로열티는 <b>4만 주</b>만 거래됐어요. 이런 종목은 다음 날 <b>-30~50%</b>도 같은 이유로 나와요.</p>
-      <p>투자 참고용이에요. 실제로 사고팔기 전에는 증권사 앱에서 가격을 꼭 다시 확인하세요.</p>
-      <details class="more">
-        <summary>신호등 뜻</summary>
-        <div class="gloss">
-          <p>🟢 <b>힘 좋음</b> — 실적·계약 같은 실제 재료가 있고 오르는 힘이 시장보다 강해요.</p>
-          <p>🟡 <b>이미 많이 오름</b> — 재료는 있지만 이미 크게 올라서 지금 따라 사기엔 부담이에요.</p>
-          <p>🔴 <b>변동성 큼·조심</b> — 시총이 아주 작거나, 거래가 얇아 가격을 믿기 어려운 종목이에요.</p>
-        </div>
-      </details>
-      <details class="more">
-        <summary>어려운 말 뜻</summary>
-        <div class="gloss">
-          <p><b>정규장(본장)</b> — 미국 정규 거래 시간이에요. 한국시간 밤 11시 30분 ~ 아침 6시(동계 기준)예요.</p>
-          <p><b>애프터마켓</b> — 정규장이 끝난 뒤 시간(한국시간 아침 6~10시)이에요. 실적 발표는 보통 이때 나와요.</p>
-          <p><b>액면병합(리버스 스플릿)</b> — 여러 주를 1주로 합치는 것이에요. 가격 숫자는 커지지만 회사 가치는 그대로예요.</p>
-          <p><b>유동주식(플로트)</b> — 실제로 시장에서 사고팔 수 있는 주식 수예요. 적으면 조금만 사도 가격이 크게 움직여요.</p>
-          <p><b>나스닥 최저가 요건</b> — 주가가 1달러 아래로 30거래일 내려가면 개선 기간(보통 180일)을 받아요. 그 안에 10거래일 연속 1달러를 넘겨야 해요.</p>
-          <p><b>레버리지 ETF</b> — 지수를 2~3배로 따라가는 상품이에요. 하루 단위로 봐야 하고 오래 들고 있으면 손실이 커져요.</p>
-        </div>
-      </details>
-      <p class="src" style="margin-top:10px">출처 · stockanalysis(11/24 종가·상승률 순위) · Yahoo Finance(종가·52주·하루 범위) · 토스증권(tossinvest.com, 11/25 07:04 거래대금 순위·원화 표시) · 회사 공시(SEC 8-K·Form 4) · AP·CNBC·Reuters·Investopedia·Benzinga·RTTNews·GlobeNewswire. 웹에서 확인되지 않는 값은 ‘-’로 두었어요.</p>
-    </footer>
   </main>
-</div>
 
 <div class="cards" id="cards" hidden>
-<article class="card" data-i="0" id="card-up-JAGX">
-  <div class="ctop"><span class="rk">1위</span><span class="tk">JAGX · 위장질환 처방약</span></div>
-  <h2>재규어 헬스</h2>
-  <p class="what">설사·위장질환 처방약(마이테시)을 파는 미국 제약사예요. 지금은 희귀 소아 장질환(MVID) 신약을 준비하고 있어요.</p>
-  <div class="prow"><span class="price">$12.80</span><span class="pct u">+109.24%</span></div>
+<article class="card" data-i="0" id="card-up-NXAT">
+  <div class="ctop"><span class="rk">1위</span><span class="tk">NXAT · AI 데이터센터·GPU 인프라 투자</span></div>
+  <h2>넥서스 어드밴스드 테크놀로지스</h2>
+  <p class="what">케이맨 제도에 법인을 두고 <b>뉴욕과 서울</b>에서 움직이는 회사예요. 원래 K Wave Media(한국 미디어)였는데 9월에 이름과 사업을 <b>AI 인프라 투자 회사</b>로 바꿨어요.</p>
+  <div class="prow"><span class="price">$0.884</span><span class="pct u">+108.44%</span></div>
   <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$6.12</b></div><div><span>종가</span><b>$12.80</b></div><div><span>오늘 고가·저가</span><b>6.60 ~ 14.62</b></div></div>
-  <p class="posnote">거래량 <b>1,205만 주</b> · 평소(약 10만 주)의 <b>120배</b> · 52주 범위의 <b>0.03%</b> 지점(1:25 병합 반영) · 시총 <b>683만 달러</b></p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>오늘부터 <b>1:25 액면병합</b>으로 거래를 시작했고, 같은 날 자회사 나포 파마슈티컬스가 MVID 치료제(동결건조 크로펠레머)의 <b>공정 밸리데이션 배치 제조를 완료</b>했다고 발표했어요. 2027년 중반 FDA 신약 허가 신청(NDA)의 제조·품질 요건을 채우는 단계예요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>주가가 <b>0.24달러에서 12.80달러</b>가 된 건 회사가 25배 커져서가 아니라 <b>주식 25개를 1개로 합쳤기 때문</b>이에요. 그래서 +109%도 병합 조정 기준 숫자예요. 시총 683만 달러는 회사 전체 몸값이 우리 돈 <b>9억 원</b> 수준이라는 뜻이라 구경용이에요.</p></div>
+  <div class="pos3"><div><span>본사 국가</span><b>🇰🇾 케이맨 제도</b></div><div><span>전일 종가</span><b>$0.424</b></div><div><span>시가총액</span><b>약 216만 달러 (약 29억 원)</b></div></div>
+  <p class="posnote">오늘 거래량 <b>3,335만 주</b>. 시총 200만 달러짜리 회사에 하루 3천만 주가 손바뀜했어요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>오늘 새 공시는 확인되지 않았어요. 재료로 남아 있는 건 10월 6일 <b>5억 달러 규모 방산기술 역합병 독점협상</b> 공시이고, 9월에 <b>K Wave Media → AI 인프라 회사</b>로 이름·사업을 바꾼 종목이에요. 유통주식이 아주 적어서 조금만 사도 가격이 크게 뛰어요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>시총 216만 달러는 우리 돈 <b>약 29억 원</b>이에요. 회사 전체 몸값이 아파트 몇 채 수준이라 0.1달러만 움직여도 10%가 바뀌어요. +108%는 회사가 좋아진 게 아니라 <b>물량이 만든 숫자</b>예요.</p></div>
   <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/JAGX" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/JAGX" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/NXAT" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/NXAT" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 683만 달러</b></div><div><span>52주 범위</span><b>$5.50 ~ $24,543 (병합 조정)</b></div><div><span>전일 종가</span><b>$6.12 (조정)</b></div><div><span>종가</span><b>$12.80 (+109.24%)</b></div><div><span>오늘 고가·저가</span><b>$14.62 / $6.60</b></div><div><span>거래량</span><b>1,205만 주 (평소의 120배)</b></div><div><span>액면병합</span><b>1:25 (11/24부터)</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · RTTNews·InvestorBrandNetwork(11/24) · SEC 8-K</p>
+    <div class="facts"><div><span>전일 종가</span><b>$0.424</b></div><div><span>현재가</span><b>$0.884</b></div><div><span>시가총액</span><b>약 216만 달러</b></div><div><span>거래량</span><b>3,335만 주</b></div><div><span>국가</span><b>케이맨 제도(본사 뉴욕·서울)</b></div><div><span>옛 이름</span><b>K Wave Media (9월 개명)</b></div></div>
+    <p class="src">stockanalysis 상승률 순위(한국 00:12) · Nasdaq 기업정보 · SEC 공시(9/8, 10/6)</p>
   </details>
 </article>
-
-<article class="card" data-i="1" id="card-up-AKAN">
-  <div class="ctop"><span class="rk">2위</span><span class="tk">AKAN · 광케이블·통신타워</span></div>
-  <h2>아칸다</h2>
-  <p class="what">원래 캐나다 대마 재배 회사였는데, 지금은 멕시코 자회사(퍼스트 타워스 & 파이버)로 <b>광케이블·통신타워 임대</b> 사업을 해요.</p>
-  <div class="prow"><span class="price">$5.20</span><span class="pct u">+101.55%</span></div>
+<article class="card" data-i="1" id="card-up-RAYA">
+  <div class="ctop"><span class="rk">2위</span><span class="tk">RAYA · 전력 인버터·발전기</span></div>
+  <h2>에라약 파워 솔루션</h2>
+  <p class="what">중국 저장성 회사예요. 캠핑·비상용 <b>전력 인버터와 발전기</b>를 만들어요.</p>
+  <div class="prow"><span class="price">$0.621</span><span class="pct u">+46.13%</span></div>
   <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$2.58</b></div><div><span>종가</span><b>$5.20</b></div><div><span>오늘 고가·저가</span><b>3.24 ~ 6.77</b></div></div>
-  <p class="posnote">거래량 <b>7,684만 주</b> · 52주 범위의 <b>5.8%</b> 지점 · 시총 <b>1,374만 달러</b> · 장중 09:36 변동성 정지 후 09:41 재개</p>
-  <div class="why"><h3>왜 움직였나요?</h3><p><b>회사 공시·뉴스가 없어요</b>. 어제 -39%로 밀렸던 종목이 오늘 두 배로 되돌린 건 <b>저유동성 수급</b> 때문이에요. 11월 들어 하루 8,000만~1억 주씩 오가는 종목인데, 회사는 나스닥 <b>자기자본 요건</b>을 12/13까지 못 채우면 상장 유지가 어려워요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>최근 분기 매출이 <b>40만 달러</b>, 순손실 <b>620만 달러</b>인 회사예요. 어제 -39%, 오늘 +102%처럼 <b>하루 40~100%가 오가는 종목</b>이라 뉴스 없이도 이렇게 움직여요. 룰북대로면 '구경 목록'이에요.</p></div>
+  <div class="pos3"><div><span>본사 국가</span><b>🇨🇳 중국</b></div><div><span>전일 종가</span><b>$0.425</b></div><div><span>시가총액</span><b>약 67만 달러 (약 9억 원)</b></div></div>
+  <p class="posnote">프리장에는 <b>+91.8%</b>였는데 본장에서 <b>+46.1%</b>로 오름폭이 반으로 줄었어요. 거래량 6,988만 주.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p><b>회사 뉴스가 없어요.</b> 전일 -29% 급락한 종목이 되돌아오는 수급 장세예요. 프리장 급등이 본장까지 이어졌지만 힘은 약해졌어요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>시총 67만 달러(약 9억 원) 회사예요. 오름폭이 프리장의 절반으로 줄었다는 건 <b>사려는 사람이 줄고 있다</b>는 뜻이에요.</p></div>
   <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/AKAN" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/AKAN" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/RAYA" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/RAYA" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 1,374만 달러</b></div><div><span>52주 범위</span><b>$0.64 ~ $78.90</b></div><div><span>전일 종가</span><b>$2.58 (-39.2%)</b></div><div><span>종가</span><b>$5.20 (+101.55%)</b></div><div><span>오늘 고가·저가</span><b>$6.77 / $3.24</b></div><div><span>거래량</span><b>7,684만 주 (평소의 5배 이상)</b></div><div><span>최근 분기</span><b>매출 40만 달러·순손실 620만 달러</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · Quiver·RTTNews(11/24) · SEC 공시</p>
+    <div class="facts"><div><span>전일 종가</span><b>$0.425</b></div><div><span>현재가</span><b>$0.621</b></div><div><span>프리장 등락</span><b>+91.8%</b></div><div><span>현재 등락</span><b>+46.1%</b></div><div><span>시가총액</span><b>약 67만 달러</b></div><div><span>거래량</span><b>6,988만 주</b></div></div>
+    <p class="src">stockanalysis(00:12) · 19:30 프리장 리포트 대조</p>
   </details>
 </article>
-
-<article class="card" data-i="2" id="card-up-BENF">
-  <div class="ctop"><span class="rk">3위</span><span class="tk">BENF · 대체자산 금융</span></div>
-  <h2>베네피션트</h2>
-  <p class="what">대체자산(펀드 지분 등)을 현금으로 바꿔주는 금융 서비스 회사예요. 텍사스에 있어요.</p>
-  <div class="prow"><span class="price">$0.915</span><span class="pct u">+101.01%</span></div>
+<article class="card" data-i="2" id="card-up-NIVF">
+  <div class="ctop"><span class="rk">3위</span><span class="tk">NIVF · 불임·시험관 시술(IVF)</span></div>
+  <h2>뉴젠아이브이에프</h2>
+  <p class="what">태국·홍콩·키르기스스탄에서 <b>시험관 시술(IVF)</b>을 하는 회사예요. AI 라이브스트리밍 K25.ai 지분도 있어요.</p>
+  <div class="prow"><span class="price">$0.0232</span><span class="pct u">+36.47%</span></div>
   <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$0.455</b></div><div><span>종가</span><b>$0.915</b></div><div><span>오늘 고가·저가</span><b>0.579 ~ 1.10</b></div></div>
-  <p class="posnote">거래량 <b>3억 7,479만 주</b>(평소 34만 주의 <b>1,100배</b>) · 52주 범위의 <b>5.4%</b> 지점 · 시총 <b>1,756만 달러</b></p>
-  <div class="why"><h3>왜 움직였나요?</h3><p><b>실제 재료가 있어요.</b> 11/24 보도자료·8-K로 델라웨어 법원이 HCLP노미니즈 소송에 <b>개입을 허가</b>했다고 밝혔어요. 회사는 HCLP가 주장하는 채무를 무효로 만들고 <b>약 2억 1,100만 달러</b>를 되찾는 소송을 냈어요(전 CEO 브래드 헵너와 분리 작업).</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>다만 <b>11/5 나스닥 상장 요건(시총 3,500만 달러) 미달 통지</b>를 받은 상태이고, 2027년 5월까지 보완해야 해요. 소송은 '개입 허가'만 받은 것이라 이길지는 아직 몰라요. 재료가 있어도 <b>상장폐지 위험</b>이 같이 있는 종목이에요.</p></div>
+  <div class="pos3"><div><span>본사 국가</span><b>🇸🇬 싱가포르</b></div><div><span>전일 종가</span><b>$0.017</b></div><div><span>시가총액</span><b>약 23만 달러 (약 3억 원)</b></div></div>
+  <p class="posnote">프리장 +26.5%에서 본장 <b>+36.5%</b>로 더 올랐어요. 거래량 <b>7억 3,950만 주</b> — 주가가 0.001달러만 움직여도 4%가 바뀌는 가격대예요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p><b>오늘 새 뉴스 없음.</b> 0.02달러대 초저가에 유통주식이 121만 주뿐이라, 물량만 들어와도 가격이 크게 흔들려요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>시총 23만 달러는 우리 돈 <b>3억 원</b>이에요. 하루에 7억 주가 거래된 건 회사 가치와 아무 상관이 없어요. 이런 종목은 사고파는 순간이 곧 가격이에요.</p></div>
   <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/BENF" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/BENF" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/NIVF" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/NIVF" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 1,756만 달러</b></div><div><span>52주 범위</span><b>$0.40 ~ $9.96</b></div><div><span>전일 종가</span><b>$0.455</b></div><div><span>종가</span><b>$0.915 (+101.01%)</b></div><div><span>오늘 고가·저가</span><b>$1.10 / $0.579</b></div><div><span>거래량</span><b>3억 7,479만 주 (평소의 1,100배)</b></div><div><span>위험</span><b>11/5 나스닥 시총 미달 통지</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · GlobeNewswire·TipRanks(11/24) · SEC 8-K</p>
+    <div class="facts"><div><span>전일 종가</span><b>$0.017</b></div><div><span>현재가</span><b>$0.0232</b></div><div><span>프리장 등락</span><b>+26.5%</b></div><div><span>현재 등락</span><b>+36.5%</b></div><div><span>시가총액</span><b>약 23만 달러</b></div><div><span>거래량</span><b>7억 3,950만 주</b></div></div>
+    <p class="src">stockanalysis(00:12) · 19:30 프리장 리포트 대조</p>
   </details>
 </article>
-
-<article class="card" data-i="3" id="card-up-LVWR">
-  <div class="ctop"><span class="rk">4위</span><span class="tk">LVWR · 전기 오토바이</span></div>
-  <h2>라이브와이어</h2>
-  <p class="what">할리데이비슨에서 떨어져 나온 <b>전기 오토바이</b> 회사예요. 아이들 전기밸런스바이크(스태이시)도 팔아요.</p>
-  <div class="prow"><span class="price">$1.87</span><span class="pct u">+90.80%</span></div>
-  <span class="badge bg-y">🟡 이미 많이 오름</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$0.98</b></div><div><span>종가</span><b>$1.87</b></div><div><span>오늘 고가·저가</span><b>0.98 ~ 2.09</b></div></div>
-  <p class="posnote">거래량 <b>3,562만 주</b>(평소의 6.6배) · 52주 범위의 <b>33%</b> 지점 · 시총 <b>3억 8,412만 달러</b></p>
-  <div class="why"><h3>왜 움직였나요?</h3><p><b>오늘 회사 뉴스가 없어요.</b> 같은 업종(할리데이비슨·폴라리스·브런즈윅)은 1% 안쪽으로 조용했는데 혼자 90% 올랐어요. 3분기 매출이 <b>+38%(790만 달러)</b>였고 미국 50kW 초과 전기모터사이클 점유율이 80%라는 점이 다시 주목받은 것으로 보여요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>올해만 <b>11/19 +76.5%, 7/24 +89.6%</b>처럼 뉴스 없이 크게 뛴 적이 여러 번이에요(하루 평균 변동의 12배). 11/11에는 나스닥이 아니라 <b>뉴욕증권거래소가 워런트 상장폐지 절차</b>를 시작했어요(보통주는 무관).</p></div>
+<article class="card" data-i="3" id="card-up-ALGS">
+  <div class="ctop"><span class="rk">4위</span><span class="tk">ALGS · B형간염·MASH 신약</span></div>
+  <h2>알리고스 테라퓨틱스</h2>
+  <p class="what">미국 샌프란시스코 바이오 회사예요. <b>B형간염·간질환(MASH)</b> 신약을 임상 중이에요.</p>
+  <div class="prow"><span class="price">$2.01</span><span class="pct u">+34.90%</span></div>
+  <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국</b></div><div><span>전일 종가</span><b>$1.49</b></div><div><span>시가총액</span><b>약 1,256만 달러 (약 169억 원)</b></div></div>
+  <p class="posnote">오늘 거래량 <b>146만 주</b> — 평소보다 10배 넘게 돌았어요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>오늘 새 공시는 확인되지 않았어요(3분기 실적은 11/6). 전일 미국 <b>헬스케어 종목이 단체로 오른 흐름</b>(전일 AKAN +86%, JAGX +71%, APUS +51%)이 본장까지 이어진 쪽이에요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>임상 결과가 나오기 전 바이오 주식은 <b>기대</b>로 움직여요. 재료 없이 하루 35% 오르면 다음 날 반대로 갈 수도 있어요.</p></div>
   <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/LVWR" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/LVWR" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/ALGS" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/ALGS" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 3억 8,412만 달러</b></div><div><span>52주 범위</span><b>$0.24 ~ $5.13</b></div><div><span>전일 종가</span><b>$0.98</b></div><div><span>종가</span><b>$1.87 (+90.80%)</b></div><div><span>오늘 고가·저가</span><b>$2.09 / $0.980</b></div><div><span>거래량</span><b>3,562만 주 (평소의 6.6배)</b></div><div><span>3분기 매출</span><b>790만 달러 (+38%)</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · GuruFocus(11/24) · 회사 공시</p>
+    <div class="facts"><div><span>전일 종가</span><b>$1.49</b></div><div><span>현재가</span><b>$2.01</b></div><div><span>시가총액</span><b>약 1,256만 달러</b></div><div><span>거래량</span><b>146만 주</b></div><div><span>최근 재료</span><b>11/6 3분기 실적</b></div></div>
+    <p class="src">stockanalysis(00:12) · Nasdaq 뉴스(11/6)</p>
   </details>
 </article>
-
-<article class="card" data-i="4" id="card-up-APUS">
-  <div class="ctop"><span class="rk">5위</span><span class="tk">APUS · 블록체인·디지털자산</span></div>
+<article class="card" data-i="4" id="card-up-WHLR">
+  <div class="ctop"><span class="rk">5위</span><span class="tk">WHLR · 쇼핑센터 리츠(부동산 임대)</span></div>
+  <h2>휠러 리얼 에스테이트</h2>
+  <p class="what">미국 동부의 <b>소형 쇼핑센터를 사서 임대</b>하는 리츠(부동산 임대 회사)예요.</p>
+  <div class="prow"><span class="price">$0.426</span><span class="pct u">+30.95%</span></div>
+  <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국</b></div><div><span>전일 종가</span><b>$0.325</b></div><div><span>시가총액</span><b>약 76만 달러 (약 10억 원)</b></div></div>
+  <p class="posnote">프리장 +68.2% → 본장 <b>+31.0%</b>. 거래량 4,753만 주로 여전히 과열이에요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p><b>회사 뉴스가 없어요.</b> 거래가 얇은 종목에 개인 매수세만 몰린 수급 장세예요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>리츠는 원래 <b>월세 받는 회사</b>라 가격이 천천히 움직여요. 하루 31% 움직이면 그건 리츠가 아니라 물량 놀이예요.</p></div>
+  <div class="rt">
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/WHLR" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/WHLR" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+  </div>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
+  <details class="more">
+    <summary>자세히 보기 (숫자·출처)</summary>
+    <div class="facts"><div><span>전일 종가</span><b>$0.325</b></div><div><span>현재가</span><b>$0.426</b></div><div><span>프리장 등락</span><b>+68.2%</b></div><div><span>현재 등락</span><b>+31.0%</b></div><div><span>시가총액</span><b>약 76만 달러</b></div><div><span>거래량</span><b>4,753만 주</b></div></div>
+    <p class="src">stockanalysis(00:12) · 19:30 프리장 리포트 대조</p>
+  </details>
+</article>
+<article class="card" data-i="5" id="card-up-APUS">
+  <div class="ctop"><span class="rk">6위</span><span class="tk">APUS · 의료기기 → 블록체인·디지털자산</span></div>
   <h2>아피메즈 파마슈티컬스 US</h2>
-  <p class="what">원래 백신 회사인데, 지금은 한국 <b>인스코비</b> 계열로 블록체인(MindWave)·디지털자산 사업을 해요.</p>
-  <div class="prow"><span class="price">$2.31</span><span class="pct u">+54.00%</span></div>
+  <p class="what">원래 의료기기 회사였는데 <b>블록체인·디지털자산</b> 사업으로 방향을 튼 초소형주예요.</p>
+  <div class="prow"><span class="price">$2.91</span><span class="pct u">+25.97%</span></div>
   <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$1.50</b></div><div><span>종가</span><b>$2.31</b></div><div><span>오늘 고가·저가</span><b>1.86 ~ 2.48</b></div></div>
-  <p class="posnote">거래량 <b>2,211만 주</b>(평소의 24배) · 52주 범위의 <b>1.4%</b> 지점 · 시총 <b>427만 달러</b> · 유동주식 약 62만 주</p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>11/24 8-K·보도자료로 자회사 마인드웨이브가 <b>COP31(유엔 기후총회)에서 출시된 2,500만 달러 이상의 보험부 생태계 크레딧(ALCI)</b>을 자사 블록체인(AQUAEChain)에서 발행·관리한다고 밝혔어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>유동주식이 <b>62만 주</b>뿐이라 2,200만 주가 몰리면 가격이 몇 배로 뛰어요. 11/20에는 <b>계속기업(존속) 의문</b>이 제기된 회사예요. '블록체인 크레딧'이라는 말은 좋아 보이지만 <b>매출이 된 건 아니에요</b>.</p></div>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국</b></div><div><span>전일 종가</span><b>$2.31</b></div><div><span>시가총액</span><b>약 538만 달러 (약 72억 원)</b></div></div>
+  <p class="posnote">프리장 +16.0% → 본장 <b>+26.0%</b>로 오름폭이 커졌어요. 오늘 상위 20곳 중 드물게 <b>프리장보다 강해진</b> 종목이에요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>11/19 <b>3분기 흑자</b>(디지털자산 평가이익) 공시 뒤 전일 +54% 급등했고, 오늘도 개인 매수세가 이어졌어요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>흑자라고 해도 <b>장사해서 번 돈이 아니라 보유 자산값이 오른 것</b>이에요. 시총 72억 원짜리 회사라 하루 50%가 오가는 종목이에요.</p></div>
   <div class="rt">
     <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/APUS" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
     <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/APUS" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 427만 달러</b></div><div><span>52주 범위</span><b>$1.50 ~ $59.70</b></div><div><span>전일 종가</span><b>$1.50</b></div><div><span>종가</span><b>$2.31 (+54.00%)</b></div><div><span>오늘 고가·저가</span><b>$2.48 / $1.86</b></div><div><span>거래량</span><b>2,211만 주 (평소의 24배)</b></div><div><span>유동주식</span><b>약 62만 주</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · SEC 8-K(11/24) · RTTNews(11/24)</p>
+    <div class="facts"><div><span>전일 종가</span><b>$2.31</b></div><div><span>현재가</span><b>$2.91</b></div><div><span>프리장 등락</span><b>+16.0%</b></div><div><span>현재 등락</span><b>+26.0%</b></div><div><span>시가총액</span><b>약 538만 달러</b></div><div><span>거래량</span><b>425만 주</b></div></div>
+    <p class="src">stockanalysis(00:12) · RTTNews(11/19) · 19:30 프리장 리포트 대조</p>
   </details>
 </article>
-
-<article class="card" data-i="5" id="card-up-RMSG">
-  <div class="ctop"><span class="rk">6위</span><span class="tk">RMSG · 부동산 중개 앱</span></div>
-  <h2>리얼 메신저</h2>
-  <p class="what">부동산 중개인끼리 대화·서류를 주고받는 <b>앱</b>을 만드는 회사예요(홍콩·미국).</p>
-  <div class="prow"><span class="price">$0.2101</span><span class="pct u">+49.96%</span></div>
-  <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$0.1401</b></div><div><span>종가</span><b>$0.2101</b></div><div><span>오늘 고가·저가</span><b>0.148 ~ 0.227</b></div></div>
-  <p class="posnote">거래량 <b>1억 3,643만 주</b> = 유동주식(266만 주)의 <b>51배</b> · 52주 범위의 <b>2.4%</b> 지점 · 시총 <b>233만 달러</b></p>
-  <div class="why"><h3>왜 움직였나요?</h3><p><b>회사 공시가 없어요.</b> 장 시작 전부터 유동주식의 28배가 거래되며 올랐고, 장중에도 1억 3,600만 주가 오갔어요. 재료 없이 <b>물량 회전</b>만으로 만든 상승이에요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>회사 몸값이 <b>233만 달러(약 31억 원)</b>인데 하루에 1억 3,600만 주가 거래됐어요. 이런 종목은 <b>다음 날 -50%</b>도 같은 이유로 나와요.</p></div>
+<article class="card" data-i="6" id="card-up-EGG">
+  <div class="ctop"><span class="rk">7위</span><span class="tk">EGG · 해외 진출 기업서비스</span></div>
+  <h2>에니그매틱</h2>
+  <p class="what">싱가포르 회사로, 다른 기업이 <b>해외에 진출할 때 필요한 행정·금융 서비스</b>를 대행해요.</p>
+  <div class="prow"><span class="price">$10.88</span><span class="pct u">+21.29%</span></div>
+  <span class="badge bg-y">🟡 이미 많이 오름</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇸🇬 싱가포르</b></div><div><span>전일 종가</span><b>$8.97</b></div><div><span>시가총액</span><b>약 3억 470만 달러 (약 4,104억 원)</b></div></div>
+  <p class="posnote">거래량이 <b>5.9만 주</b>뿐이에요. 시총 3억 달러짜리 회사인데 거래가 아주 얇아서 몇 백 주로도 가격이 밀려요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>오늘 회사 뉴스는 확인되지 않았어요. 거래가 얇은 종목이라 소량 매수만으로 20%가 움직였어요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>시총 3억 달러(4,100억 원)인데 하루 거래가 5.9만 주예요. <b>사고 싶을 때 못 사고, 팔고 싶을 때 못 파는</b> 종류의 종목이에요.</p></div>
   <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/RMSG" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/RMSG" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/EGG" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/EGG" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 233만 달러</b></div><div><span>52주 범위</span><b>$0.121 ~ $3.90</b></div><div><span>전일 종가</span><b>$0.1401</b></div><div><span>종가</span><b>$0.2101 (+49.96%)</b></div><div><span>오늘 고가·저가</span><b>$0.227 / $0.148</b></div><div><span>거래량</span><b>1억 3,643만 주 (유동주식의 51배)</b></div><div><span>유동주식</span><b>약 266만 주</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · IndicatorStack(11/24) · Robinhood</p>
+    <div class="facts"><div><span>전일 종가</span><b>$8.97</b></div><div><span>현재가</span><b>$10.88</b></div><div><span>시가총액</span><b>약 3억 470만 달러</b></div><div><span>거래량</span><b>5.9만 주</b></div><div><span>국가</span><b>싱가포르</b></div><div><span>상장</span><b>2025년</b></div></div>
+    <p class="src">stockanalysis(00:12) · Nasdaq 기업정보</p>
   </details>
 </article>
-
-<article class="card" data-i="6" id="card-up-GLXG">
-  <div class="ctop"><span class="rk">7위</span><span class="tk">GLXG · 홍콩 급여·HR</span></div>
-  <h2>갤럭시 페이롤</h2>
-  <p class="what">홍콩에서 <b>급여·인사 업무를 대신 처리</b>해 주는 회사예요(아웃소싱).</p>
-  <div class="prow"><span class="price">$1.04</span><span class="pct u">+48.57%</span></div>
+<article class="card" data-i="7" id="card-up-GLXG">
+  <div class="ctop"><span class="rk">8위</span><span class="tk">GLXG · 급여 대행·인사 서비스</span></div>
+  <h2>갤럭시 페이롤 그룹</h2>
+  <p class="what">홍콩 회사예요. 다른 회사의 <b>급여 지급과 인사 업무를 대신 처리</b>해 줘요.</p>
+  <div class="prow"><span class="price">$1.24</span><span class="pct u">+19.23%</span></div>
   <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$0.70</b></div><div><span>종가</span><b>$1.04</b></div><div><span>오늘 고가·저가</span><b>0.719 ~ 1.20</b></div></div>
-  <p class="posnote">거래량 <b>764만 주</b>(평소 33만 주의 <b>23배</b>) · 52주 범위의 <b>12%</b> 지점 · 시총 <b>620만 달러</b></p>
-  <div class="why"><h3>왜 움직였나요?</h3><p><b>회사 뉴스가 없어요.</b> 최근 나온 소식은 10/28 분기 실적(주당 -0.21달러, 매출 94만 달러)과 Weiss의 '매도' 의견뿐이에요. 장 초반 +32%에서 마감까지 밀리지 않고 오른 건 얇은 물량에 매수세가 붙은 탓이에요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>하루 거래량이 <b>평소의 23배</b>인데 시총은 620만 달러예요. 이런 종목은 <b>거래가 끊기면 값도 금방 사라져요</b>.</p></div>
+  <div class="pos3"><div><span>본사 국가</span><b>🇭🇰 홍콩</b></div><div><span>전일 종가</span><b>$1.04</b></div><div><span>시가총액</span><b>약 739만 달러 (약 100억 원)</b></div></div>
+  <p class="posnote">프리장 +35.4%였는데 본장 <b>+19.2%</b>로 줄었어요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p><b>오늘 회사 뉴스 확인 안 됨.</b> 프리장에 올랐던 초소형주가 본장에서 힘이 빠지는 흐름이에요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>시총 100억 원 회사예요. 프리장의 절반으로 오름폭이 줄었으니 <b>매수세가 약해진 것</b>으로 봐야 해요.</p></div>
   <div class="rt">
     <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/GLXG" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
     <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/GLXG" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 620만 달러</b></div><div><span>52주 범위</span><b>$0.53 ~ $4.79</b></div><div><span>전일 종가</span><b>$0.70</b></div><div><span>종가</span><b>$1.04 (+48.57%)</b></div><div><span>오늘 고가·저가</span><b>$1.20 / $0.719</b></div><div><span>거래량</span><b>764만 주 (평소의 23배)</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · Benzinga(11/24) · MarketBeat</p>
+    <div class="facts"><div><span>전일 종가</span><b>$1.04</b></div><div><span>현재가</span><b>$1.24</b></div><div><span>프리장 등락</span><b>+35.4%</b></div><div><span>현재 등락</span><b>+19.2%</b></div><div><span>시가총액</span><b>약 739만 달러</b></div></div>
+    <p class="src">stockanalysis(00:12) · 19:30 프리장 리포트 대조</p>
   </details>
 </article>
-
-<article class="card" data-i="7" id="card-up-FGL">
-  <div class="ctop"><span class="rk">8위</span><span class="tk">FGL · 말레이시아 태양광</span></div>
-  <h2>파운더 그룹</h2>
-  <p class="what">말레이시아에서 <b>태양광 발전소를 설계·시공(EPCC)</b>하는 회사예요.</p>
-  <div class="prow"><span class="price">$0.63</span><span class="pct u">+43.15%</span></div>
+<article class="card" data-i="8" id="card-up-ATOS">
+  <div class="ctop"><span class="rk">9위</span><span class="tk">ATOS · 유방암 예방·치료제</span></div>
+  <h2>아토사 테라퓨틱스</h2>
+  <p class="what">미국 바이오 회사예요. 유방암 예방·치료제 <b>(Z)-엔독시펜</b>을 개발해요.</p>
+  <div class="prow"><span class="price">$2.76</span><span class="pct u">+18.97%</span></div>
   <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$0.44</b></div><div><span>종가</span><b>$0.63</b></div><div><span>오늘 고가·저가</span><b>0.573 ~ 0.747</b></div></div>
-  <p class="posnote">거래량 <b>1억 279만 주</b>(평소의 22배) · 시간외 <b>$0.7099(+12.68%)</b> · 52주 범위의 <b>0%</b> 지점 · 시총 <b>109만 달러</b></p>
-  <div class="why"><h3>왜 움직였나요?</h3><p><b>오늘 새 공시가 없어요.</b> 나스닥 '공개주식수 요건 회복'(10/23)은 이미 지난 뉴스이고, 2026년에 <b>100:1 병합을 두 번</b> 해서 주식 수가 7만 주대로 줄어든 상태예요. 어제 -17%로 사상 최저를 찍은 뒤 반등이에요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>시총이 <b>109만 달러(약 14억 원)</b>인데 하루 1억 주가 거래됐어요. 상반기 매출은 8,300만 링깃으로 늘었지만 <b>현금흐름은 마이너스</b>이고 전환사채가 계속 주식으로 바뀌어 주식 수가 다시 늘어나는 구조예요.</p></div>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국</b></div><div><span>전일 종가</span><b>$2.33</b></div><div><span>시가총액</span><b>약 2,754만 달러 (약 371억 원)</b></div></div>
+  <p class="posnote">거래량 <b>7.1만 주</b>로 얇아요. 0.4달러 오르는 데 19%가 바뀌는 가격대예요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>11/11 3분기 <b>적자 축소</b>와 2027년 초 임상 1상 신청 계획을 발표했어요. 오늘 새 뉴스는 없고 헬스케어 순환매에 올라탔어요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>적자가 줄었다는 건 <b>돈을 덜 쓰고 있다</b>는 뜻이지 돈을 번다는 뜻이 아니에요. 신약 허가 전까지는 재료가 계속 바뀌어요.</p></div>
   <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/FGL" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/FGL" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/ATOS" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/ATOS" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 109만 달러</b></div><div><span>52주 범위</span><b>$0.33 ~ $4,600 (병합 조정)</b></div><div><span>전일 종가</span><b>$0.44</b></div><div><span>종가</span><b>$0.63 (+43.15%)</b></div><div><span>시간외</span><b>$0.7099 (+12.68%)</b></div><div><span>거래량</span><b>1억 279만 주 (평소의 22배)</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · Finviz·Kalkine(11/24)</p>
+    <div class="facts"><div><span>전일 종가</span><b>$2.33</b></div><div><span>현재가</span><b>$2.76</b></div><div><span>시가총액</span><b>약 2,754만 달러</b></div><div><span>거래량</span><b>7.1만 주</b></div><div><span>최근 재료</span><b>11/11 3분기 적자 축소</b></div></div>
+    <p class="src">stockanalysis(00:12) · RTTNews(11/11)</p>
   </details>
 </article>
-
-<article class="card" data-i="8" id="card-up-PLAG">
-  <div class="ctop"><span class="rk">9위</span><span class="tk">PLAG · 중국 차·건강식품</span></div>
-  <h2>플래닛 그린</h2>
-  <p class="what">중국에서 <b>차·건강기능식품·온라인 광고</b> 사업을 하는 회사예요. 화학 사업은 6월에 팔았어요.</p>
-  <div class="prow"><span class="price">$0.4844</span><span class="pct u">+41.84%</span></div>
+<article class="card" data-i="9" id="card-up-BNAI">
+  <div class="ctop"><span class="rk">10위</span><span class="tk">BNAI · AI 아바타·광고 플랫폼</span></div>
+  <h2>브랜드 인게이지먼트 네트워크</h2>
+  <p class="what">AI 아바타로 <b>광고·고객 상담</b>을 자동화하는 미국 회사예요.</p>
+  <div class="prow"><span class="price">$7.86</span><span class="pct u">+18.20%</span></div>
+  <span class="badge bg-y">🟡 이미 많이 오름</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국</b></div><div><span>전일 종가</span><b>$6.65</b></div><div><span>시가총액</span><b>약 6,017만 달러 (약 810억 원)</b></div></div>
+  <p class="posnote">토스증권 <b>관심종목 인기 6위</b>이고, 오늘 한때 <b>+26%</b>(11,259원)까지 갔어요. 지금은 +18%로 내려왔어요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p><b>채무 조정 합의</b> 소식이 있어요(토스 AI 요약). 11/23에는 3분기 적자가 줄었다고 발표했어요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>빚을 정리했다는 건 회사가 살아남는다는 신호지만, 아직 <b>적자 회사</b>예요. 인기 6위라 개인들이 많이 들고 있다는 뜻이라 흔들릴 때 같이 흔들려요.</p></div>
+  <div class="rt">
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/BNAI" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/BNAI" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+  </div>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
+  <details class="more">
+    <summary>자세히 보기 (숫자·출처)</summary>
+    <div class="facts"><div><span>전일 종가</span><b>$6.65</b></div><div><span>현재가</span><b>$7.86</b></div><div><span>장중 고가</span><b>$9.41 (+41%)</b></div><div><span>시가총액</span><b>약 6,017만 달러</b></div><div><span>거래량</span><b>747만 주</b></div><div><span>토스 인기</span><b>6위</b></div></div>
+    <p class="src">stockanalysis(00:12) · Yahoo(00:17) · 토스증권 AI 요약(00:05)</p>
+  </details>
+</article>
+<article class="card" data-i="10" id="card-up-GOAI">
+  <div class="ctop"><span class="rk">11위</span><span class="tk">GOAI · AI 아바타 라이브스트리밍</span></div>
+  <h2>에바 라이브</h2>
+  <p class="what">AI 아바타로 <b>라이브 방송·스포츠 예측 서비스</b>를 만드는 미국 회사예요.</p>
+  <div class="prow"><span class="price">$0.789</span><span class="pct u">+17.86%</span></div>
   <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$0.34</b></div><div><span>종가</span><b>$0.4844</b></div><div><span>오늘 고가·저가</span><b>0.350 ~ 0.488</b></div></div>
-  <p class="posnote">거래량 <b>9,209만 주</b>(평소의 18배) · 52주 범위의 <b>4%</b> 지점 · 시총 <b>691만 달러</b></p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>11/24 보도자료 — 회장 겸 CEO <b>빈 저우가 회사에 빌려준 105만 7,200달러를 주당 0.3524달러로 300만 주로 전환</b>했어요(지분 18%→32%). 11/17에는 자회사가 락토페린 면역 츄어블 제품권을 인수했어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>대표가 돈을 <b>받는 대신 주식으로 바꾼 것</b>이라 회사 현금이 나간 건 아니에요. 좋게 읽으면 '대표가 자기 돈을 주식에 묶었다'는 신호지만, <b>주식 300만 주가 새로 생긴 것</b>이라 기존 주주 지분은 21% 희석돼요.</p></div>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국</b></div><div><span>전일 종가</span><b>$0.657</b></div><div><span>시가총액</span><b>약 3,195만 달러 (약 430억 원)</b></div></div>
+  <p class="posnote">거래량 5.9만 주로 얇아요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>10월 말 <b>약 792만 달러 채무 상환 유예(forbearance)</b> 합의와 10/27 EvaSportsPredict 출시가 재료로 남아 있어요. 오늘 새 공시는 확인 안 됨.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p><b>채무 유예는 좋은 뉴스가 아니에요</b> — 갚을 돈을 못 갚아서 미뤄 달라고 한 것이거든요. 이걸 재료로 올랐다면 위험한 상승이에요.</p></div>
   <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/PLAG" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/PLAG" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/GOAI" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/GOAI" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 691만 달러</b></div><div><span>52주 범위</span><b>$0.21 ~ $6.81</b></div><div><span>전일 종가</span><b>$0.34</b></div><div><span>종가</span><b>$0.4844 (+41.84%)</b></div><div><span>오늘 고가·저가</span><b>$0.488 / $0.350</b></div><div><span>거래량</span><b>9,209만 주 (평소의 18배)</b></div><div><span>전환 내용</span><b>105.7만 달러 → 300만 주(0.3524달러)</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · StreetInsider·PR Newswire(11/24)</p>
+    <div class="facts"><div><span>전일 종가</span><b>$0.657</b></div><div><span>현재가</span><b>$0.789</b></div><div><span>시가총액</span><b>약 3,195만 달러</b></div><div><span>거래량</span><b>5.9만 주</b></div><div><span>재료</span><b>채무 상환 유예(10월)</b></div></div>
+    <p class="src">stockanalysis(00:12) · Nasdaq 뉴스(11/6)</p>
   </details>
 </article>
-
-<article class="card" data-i="9" id="card-up-LGHL">
-  <div class="ctop"><span class="rk">10위</span><span class="tk">LGHL · 선물·CFD 중개</span></div>
-  <h2>라이온 그룹 홀딩스</h2>
-  <p class="what">싱가포르에서 <b>차액결제(CFD)·선물 중개 플랫폼</b>을 운영해요. 회사 금고에 비트코인 88개도 들고 있어요.</p>
-  <div class="prow"><span class="price">$0.9244</span><span class="pct u">+41.74%</span></div>
+<article class="card" data-i="11" id="card-up-CNXU">
+  <div class="ctop"><span class="rk">12위</span><span class="tk">CNXU · 창상(상처) 치료 플랫폼</span></div>
+  <h2>코넥슈 사이언스</h2>
+  <p class="what">수술·상처 부위를 덮는 <b>조직 재생 시트</b>를 개발하는 미국 의료기기 회사예요.</p>
+  <div class="prow"><span class="price">$1.76</span><span class="pct u">+17.33%</span></div>
   <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$0.652</b></div><div><span>종가</span><b>$0.9244</b></div><div><span>오늘 고가·저가</span><b>0.730 ~ 1.090</b></div></div>
-  <p class="posnote">거래량 <b>2,722만 주</b>(평소의 11배) · 시간외 <b>$0.9995(+8.12%)</b> · 52주 범위의 <b>0.02%</b> 지점 · 시총 <b>4만 2,660달러</b></p>
-  <div class="why"><h3>왜 움직였나요?</h3><p><b>회사 공시가 없어요</b> — SEC에 1개월간 제출한 서류가 없어요. 중국·홍콩 소형주가 함께 반등한 흐름에 얹혀 올랐어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>발행주식이 <b>4만 5,879주</b>뿐이라 시총이 <b>4만 2,660달러(약 5,700만 원)</b>로 표시돼요. 여기서 +42%는 <b>몇 백 주 주문</b>으로도 만들어져요. 올해 -99.8%라 상장 유지 자체가 위태로워요.</p></div>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국</b></div><div><span>전일 종가</span><b>$1.50</b></div><div><span>시가총액</span><b>약 5,426만 달러 (약 731억 원)</b></div></div>
+  <p class="posnote">거래량 8.0만 주로 얇아요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>11/18 <b>상처 치료 플랫폼의 시트·격자형 제품 개발 착수</b>를 발표했고, 2027년 1분기 FDA 510(k) 승인을 목표로 해요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>FDA 승인 목표가 <b>2027년</b>이에요. 아직 허가받은 제품이 아니라 매출이 없는 회사예요.</p></div>
   <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/LGHL" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/LGHL" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/CNXU" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/CNXU" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 4만 2,660달러</b></div><div><span>52주 범위</span><b>$0.61 ~ $1,605 (병합 조정)</b></div><div><span>전일 종가</span><b>$0.652</b></div><div><span>종가</span><b>$0.9244 (+41.74%)</b></div><div><span>오늘 고가·저가</span><b>$1.09 / $0.730</b></div><div><span>거래량</span><b>2,722만 주 (평소의 11배)</b></div><div><span>발행주식</span><b>약 4만 5,879주</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · Finviz·InstaNews(11/24)</p>
+    <div class="facts"><div><span>전일 종가</span><b>$1.50</b></div><div><span>현재가</span><b>$1.76</b></div><div><span>시가총액</span><b>약 5,426만 달러</b></div><div><span>거래량</span><b>8.0만 주</b></div><div><span>목표</span><b>2027년 1분기 FDA 510(k)</b></div></div>
+    <p class="src">stockanalysis(00:12) · Nasdaq 뉴스(11/18)</p>
   </details>
 </article>
-
-<article class="card" data-i="10" id="card-up-SMXT">
-  <div class="ctop"><span class="rk">11위</span><span class="tk">SMXT · 태양광·LED</span></div>
-  <h2>솔라맥스 테크놀로지</h2>
-  <p class="what">캘리포니아에서 <b>태양광 설치·LED 조명</b> 사업을 하는 회사예요.</p>
-  <div class="prow"><span class="price">$4.14</span><span class="pct u">+40.82%</span></div>
+<article class="card" data-i="12" id="card-up-OMH">
+  <div class="ctop"><span class="rk">13위</span><span class="tk">OMH · 부동산 거래 플랫폼</span></div>
+  <h2>오마이홈</h2>
+  <p class="what">싱가포르에서 <b>집을 사고팔고 빌리는 앱</b>을 운영해요.</p>
+  <div class="prow"><span class="price">$4.30</span><span class="pct u">+15.28%</span></div>
   <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$2.94</b></div><div><span>종가</span><b>$4.14</b></div><div><span>오늘 고가·저가</span><b>2.91 ~ 4.25</b></div></div>
-  <p class="posnote">거래량 <b>2만 8,282주</b>뿐(평소 2만 주) · 52주 범위의 <b>17%</b> 지점 · 시총 <b>1,963만 달러</b></p>
-  <div class="why"><h3>왜 움직였나요?</h3><p><b>회사 뉴스가 없어요.</b> 11/16 3분기 실적은 매출 <b>-29%(670만 달러)</b>·순손실 420만 달러로 좋지 않았고, 10-Q 제출 지연으로 나스닥 통지도 받았어요. 3일 연속 밀린 뒤 반등이에요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>하루 거래량이 <b>2만 8,000주</b>, 거래대금으로 <b>9만 5,000달러(약 1억 3,000만 원)</b>예요. 이 정도면 개인 몇 명의 주문으로 +40%가 나와요. 숫자를 믿을 수 없는 종목이에요.</p></div>
+  <div class="pos3"><div><span>본사 국가</span><b>🇸🇬 싱가포르</b></div><div><span>전일 종가</span><b>$3.73</b></div><div><span>시가총액</span><b>약 829만 달러 (약 112억 원)</b></div></div>
+  <p class="posnote">시총 829만 달러 회사에 거래량이 <b>1,110만 주</b> — 하루에 회사 전체 주식이 여러 번 갈아치워졌어요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>11/10 <b>버진아일랜드로 본사 이전·사명 변경(Ohmyswift)</b>, 11/24 <b>최고재무책임자 교체</b> 공시가 있었어요. 회사 구조를 바꾸는 뉴스예요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>사명 변경과 임원 교체는 <b>실적이 좋아진다는 뜻이 아니에요.</b> 시총 112억 원에 거래량 1,100만 주는 전형적인 물량 장세예요.</p></div>
   <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/SMXT" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/SMXT" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/OMH" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/OMH" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 1,963만 달러</b></div><div><span>52주 범위</span><b>$1.82 ~ $15.24</b></div><div><span>전일 종가</span><b>$2.94</b></div><div><span>종가</span><b>$4.14 (+40.82%)</b></div><div><span>오늘 고가·저가</span><b>$4.25 / $2.91</b></div><div><span>거래량</span><b>2만 8,282주 (거래대금 9.5만 달러)</b></div><div><span>3분기</span><b>매출 -29%·순손실 420만 달러</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · GlobeNewswire(11/16) · OTC Markets</p>
+    <div class="facts"><div><span>전일 종가</span><b>$3.73</b></div><div><span>현재가</span><b>$4.30</b></div><div><span>시가총액</span><b>약 829만 달러</b></div><div><span>거래량</span><b>1,110만 주</b></div><div><span>재료</span><b>사명 변경·CFO 교체</b></div></div>
+    <p class="src">stockanalysis(00:12) · Nasdaq 뉴스(11/10, 11/24)</p>
   </details>
 </article>
-
-<article class="card" data-i="11" id="card-up-EMBC">
-  <div class="ctop"><span class="rk">12위</span><span class="tk">EMBC · 인슐린 주사기</span></div>
-  <h2>엠벡타</h2>
-  <p class="what">BD(벡톤디킨슨)에서 떨어져 나온 <b>인슐린 주사기·펜니들</b> 회사예요. 100년 된 당뇨 주사 기술이 주력이에요.</p>
-  <div class="prow"><span class="price">$8.08</span><span class="pct u">+40.64%</span></div>
-  <span class="badge bg-g">🟢 힘 좋음</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$5.745</b></div><div><span>종가</span><b>$8.08</b></div><div><span>오늘 고가·저가</span><b>6.57 ~ 8.23</b></div></div>
-  <p class="posnote">거래량 <b>698만 주</b>(평소의 6.8배) · 52주 범위의 <b>44%</b> 지점 · 시총 <b>4억 5,781만 달러</b></p>
-  <div class="why"><h3>왜 움직였나요?</h3><p><b>4분기(회계연도 2026) 실적이 예상을 크게 넘었어요.</b> 조정 EPS <b>0.72달러</b>(예상 0.29달러), 매출 <b>2억 9,870만 달러</b>(예상 2억 6,737만). 오웬 멈포드 인수 효과와 GLP-1(비만약) 관련 B2B 매출이 컸고, 내년 가이던스도 주당 1.60~1.90달러로 제시했어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>다만 회사도 <b>일부는 한 번만 생기는 이익</b>이라고 했어요. 1년 동안 -50% 넘게 빠졌던 종목이라 '실적이 바닥을 찍었다'는 기대가 크게 반영된 날이에요. 52주 최고가(14.78달러)의 3분의 1도 안 되는 가격이에요.</p></div>
+<article class="card" data-i="13" id="card-up-CGTX">
+  <div class="ctop"><span class="rk">14위</span><span class="tk">CGTX · 알츠하이머·치매 신약</span></div>
+  <h2>코그니션 테라퓨틱스</h2>
+  <p class="what">미국 바이오 회사로 <b>알츠하이머·치매 치료제</b>를 개발해요.</p>
+  <div class="prow"><span class="price">$0.791</span><span class="pct u">+15.05%</span></div>
+  <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국</b></div><div><span>전일 종가</span><b>$0.688</b></div><div><span>시가총액</span><b>약 7,525만 달러 (약 1,014억 원)</b></div></div>
+  <p class="posnote">최근 4주 동안 <b>-19.5%</b> 빠졌던 종목이 오늘 반등했어요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>11/7 3분기 <b>적자 축소</b>와 치매 치료제 <b>3상 임상 시작</b> 계획이 재료예요. 오늘 새 공시는 확인 안 됨.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>4주 동안 빠졌다가 하루 만에 15% 오르는 건 <b>재료가 아니라 되돌림</b>이에요. 3상은 결과까지 몇 년 걸려요.</p></div>
   <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/EMBC" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/EMBC" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/CGTX" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/CGTX" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 4억 5,781만 달러</b></div><div><span>52주 범위</span><b>$2.77 ~ $14.78</b></div><div><span>전일 종가</span><b>$5.745</b></div><div><span>종가</span><b>$8.08 (+40.64%)</b></div><div><span>오늘 고가·저가</span><b>$8.23 / $6.57</b></div><div><span>4분기 조정 EPS</span><b>$0.72 (예상 $0.29)</b></div><div><span>4분기 매출</span><b>2억 9,870만 달러 (+13.1%)</b></div><div><span>FY27 가이던스</span><b>매출 10.7~10.9억·EPS $1.60~1.90</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · 회사 실적발표(11/24) · Investing.com·GuruFocus</p>
+    <div class="facts"><div><span>전일 종가</span><b>$0.688</b></div><div><span>현재가</span><b>$0.791</b></div><div><span>시가총액</span><b>약 7,525만 달러</b></div><div><span>거래량</span><b>25.6만 주</b></div><div><span>최근</span><b>4주 -19.5% 뒤 반등</b></div></div>
+    <p class="src">stockanalysis(00:12) · Nasdaq 뉴스(11/7, 11/24)</p>
   </details>
 </article>
-
-<article class="card" data-i="12" id="card-up-IBIO">
-  <div class="ctop"><span class="rk">13위</span><span class="tk">IBIO · 비만 항체 신약</span></div>
-  <h2>아이바이오</h2>
-  <p class="what">비만·심장대사 질환에 쓰는 <b>장기 지속 항체 신약</b>을 만드는 임상 단계 회사예요(IBIO-610).</p>
-  <div class="prow"><span class="price">$1.115</span><span class="pct u">+39.57%</span></div>
+<article class="card" data-i="14" id="card-up-GTBP">
+  <div class="ctop"><span class="rk">15위</span><span class="tk">GTBP · NK세포 항암 치료제</span></div>
+  <h2>GT 바이오파마</h2>
+  <p class="what">면역세포(NK세포)를 이용한 <b>항암 치료제</b>를 만드는 미국 바이오예요.</p>
+  <div class="prow"><span class="price">$3.58</span><span class="pct u">+14.38%</span></div>
+  <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국</b></div><div><span>전일 종가</span><b>$3.13</b></div><div><span>시가총액</span><b>약 765만 달러 (약 103억 원)</b></div></div>
+  <p class="posnote">거래량이 <b>4.4만 주</b>뿐이에요. 아주 얇은 거래로 14%가 움직였어요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>11/13 주주총회에서 <b>발행 가능 주식을 2억 5,000만 주로 늘리는 안건</b>을 승인했어요(주식 희석 부담). 오늘 새 뉴스는 확인 안 됨.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>주식을 더 찍어낼 수 있게 허락한 거라, 나중에 <b>내 주식 가치가 묽어질 수 있어요</b>. 조심해야 하는 재료예요.</p></div>
+  <div class="rt">
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/GTBP" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/GTBP" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+  </div>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
+  <details class="more">
+    <summary>자세히 보기 (숫자·출처)</summary>
+    <div class="facts"><div><span>전일 종가</span><b>$3.13</b></div><div><span>현재가</span><b>$3.58</b></div><div><span>시가총액</span><b>약 765만 달러</b></div><div><span>거래량</span><b>4.4만 주</b></div><div><span>재료</span><b>발행주식 한도 증액 승인</b></div></div>
+    <p class="src">stockanalysis(00:12) · Nasdaq 뉴스(11/13)</p>
+  </details>
+</article>
+<article class="card" data-i="15" id="card-up-MEDS">
+  <div class="ctop"><span class="rk">16위</span><span class="tk">MEDS · 암 혈액검사 AI</span></div>
+  <h2>데이터메즈 AI</h2>
+  <p class="what"><b>암을 혈액으로 검사하는 AI 검사</b>를 하는 미국 회사예요(2025년 상장).</p>
+  <div class="prow"><span class="price">$1.66</span><span class="pct u">+12.16%</span></div>
+  <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국</b></div><div><span>전일 종가</span><b>$1.48</b></div><div><span>시가총액</span><b>약 949만 달러 (약 128억 원)</b></div></div>
+  <p class="posnote">거래량 <b>1,243만 주</b>. 상장한 지 얼마 안 된 종목이라 물량이 몰리면 크게 흔들려요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>11/20 <b>토도스 메디컬에서 암 AI 혈액검사 자산을 인수</b>한다고 발표했고, 11/23 헬스케어 랠리에서 이미 +31% 올랐어요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>인수는 <b>돈을 주고 사오는 것</b>이라 회사가 실제로 값을 치러야 해요. 재료는 있지만 아직 작은 회사예요.</p></div>
+  <div class="rt">
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/MEDS" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/MEDS" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+  </div>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
+  <details class="more">
+    <summary>자세히 보기 (숫자·출처)</summary>
+    <div class="facts"><div><span>전일 종가</span><b>$1.48</b></div><div><span>현재가</span><b>$1.66</b></div><div><span>시가총액</span><b>약 949만 달러</b></div><div><span>거래량</span><b>1,243만 주</b></div><div><span>재료</span><b>암 AI 혈액검사 자산 인수</b></div></div>
+    <p class="src">stockanalysis(00:12) · RTTNews(11/20, 11/23)</p>
+  </details>
+</article>
+<article class="card" data-i="16" id="card-up-FFAI">
+  <div class="ctop"><span class="rk">17위</span><span class="tk">FFAI · 전기차</span></div>
+  <h2>패러데이 퓨처</h2>
+  <p class="what">미국 캘리포니아 전기차 회사예요. <b>0.1달러대 초저가</b>로 유명해요.</p>
+  <div class="prow"><span class="price">$0.104</span><span class="pct u">+11.72%</span></div>
+  <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국</b></div><div><span>전일 종가</span><b>$0.093</b></div><div><span>시가총액</span><b>약 133만 달러 (약 18억 원)</b></div></div>
+  <p class="posnote">토스증권 <b>관심종목 인기 10위</b>(137원). 거래량 2,152만 주.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>오늘 새 뉴스는 확인 안 됨. 0.1달러대 초저가 종목에 개인 매수세가 붙어요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>시총 18억 원짜리 회사예요. 5,000원어치 사도 5만 주가 넘게 들어와서, <b>체감 변동이 훨씬 크게</b> 느껴지는 종목이에요.</p></div>
+  <div class="rt">
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/FFAI" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/FFAI" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+  </div>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
+  <details class="more">
+    <summary>자세히 보기 (숫자·출처)</summary>
+    <div class="facts"><div><span>전일 종가</span><b>$0.093</b></div><div><span>현재가</span><b>$0.104</b></div><div><span>시가총액</span><b>약 133만 달러</b></div><div><span>거래량</span><b>2,152만 주</b></div><div><span>토스 인기</span><b>10위</b></div></div>
+    <p class="src">stockanalysis(00:12) · 토스증권(00:05)</p>
+  </details>
+</article>
+<article class="card" data-i="17" id="card-up-AGLT">
+  <div class="ctop"><span class="rk">18위</span><span class="tk">AGLT · 휴머노이드(인간형) 로봇</span></div>
+  <h2>어질리티 로보틱스</h2>
+  <p class="what">미국 오리건주 회사로 <b>창고에서 일하는 인간형 로봇</b>을 만들어요. 11/5 SPAC 합병으로 상장했어요.</p>
+  <div class="prow"><span class="price">$6.00</span><span class="pct u">+11.32%</span></div>
+  <span class="badge bg-y">🟡 이미 많이 오름</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국</b></div><div><span>전일 종가</span><b>$5.39</b></div><div><span>시가총액</span><b>약 14.5억 달러 (약 1조 9,530억 원)</b></div></div>
+  <p class="posnote">오늘 상위 20곳 중 <b>시총이 가장 큰 신생 종목</b>이에요. 거래량 68만 주.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>오늘 새 뉴스는 확인 안 됨. <b>미국 첫 인간형 로봇 상장사</b>로 11/5 상장한 뒤 기대가 이어지는 종목이에요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>상장한 지 3주 된 종목이라 <b>비교할 과거 가격이 거의 없어요.</b> 기대가 크면 하루 10%가 기본이고, 실망하면 같은 속도로 빠져요.</p></div>
+  <div class="rt">
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/AGLT" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/AGLT" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+  </div>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
+  <details class="more">
+    <summary>자세히 보기 (숫자·출처)</summary>
+    <div class="facts"><div><span>전일 종가</span><b>$5.39</b></div><div><span>현재가</span><b>$6.00</b></div><div><span>시가총액</span><b>약 14.5억 달러</b></div><div><span>거래량</span><b>68만 주</b></div><div><span>상장일</span><b>2026-11-05 (SPAC)</b></div></div>
+    <p class="src">stockanalysis(00:12) · Nasdaq 뉴스(11/1, 11/4)</p>
+  </details>
+</article>
+<article class="card" data-i="18" id="card-up-HPQ">
+  <div class="ctop"><span class="rk">19위</span><span class="tk">HPQ · PC·프린터</span></div>
+  <h2>HP</h2>
+  <p class="what">전 세계에서 <b>노트북·프린터</b>를 파는 미국 대형 회사예요.</p>
+  <div class="prow"><span class="price">$30.89</span><span class="pct u">+10.56%</span></div>
+  <span class="badge bg-g">🟢 실적이 받쳐줌</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국</b></div><div><span>전일 종가</span><b>$27.94</b></div><div><span>시가총액</span><b>약 278.6억 달러 (약 37.5조 원)</b></div></div>
+  <p class="posnote">오늘 상위 20곳 중 <b>유일한 대형주</b>예요. 거래량 787만 주.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p><b>분기 실적이 예상치를 넘었어요</b>(토스 AI 요약). 오늘처럼 지수가 빠지는 날에는 실적이 확인된 회사로 돈이 모여요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>시총 37조 원짜리 회사가 하루 10% 오르는 건 <b>실제 실적 때문</b>이라, 초소형주 급등과는 성격이 완전히 달라요.</p></div>
+  <div class="rt">
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/HPQ" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/HPQ" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+  </div>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
+  <details class="more">
+    <summary>자세히 보기 (숫자·출처)</summary>
+    <div class="facts"><div><span>전일 종가</span><b>$27.94</b></div><div><span>현재가</span><b>$30.89</b></div><div><span>시가총액</span><b>약 278.6억 달러</b></div><div><span>거래량</span><b>787만 주</b></div><div><span>재료</span><b>분기 실적 예상치 상회</b></div></div>
+    <p class="src">stockanalysis(00:12) · 토스증권 AI 요약</p>
+  </details>
+</article>
+<article class="card" data-i="19" id="card-up-SWRD">
+  <div class="ctop"><span class="rk">20위</span><span class="tk">SWRD · 금융업</span></div>
+  <h2>스튜어즈</h2>
+  <p class="what">미국 금융회사예요. 시총 2억 7,700만 달러 규모예요.</p>
+  <div class="prow"><span class="price">$1.26</span><span class="pct u">+10.53%</span></div>
+  
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국</b></div><div><span>전일 종가</span><b>$1.14</b></div><div><span>시가총액</span><b>약 2억 7,697만 달러 (약 3,731억 원)</b></div></div>
+  <p class="posnote">거래량 <b>10.9만 주</b>로 얇은 편이에요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>오늘 회사 뉴스는 확인되지 않았어요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>시총 3,700억 원 회사가 10% 넘게 움직였는데 거래량이 10만 주뿐이에요. <b>거래가 얇으면 가격이 쉽게 밀려요.</b></p></div>
+  <div class="rt">
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/SWRD" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/SWRD" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+  </div>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
+  <details class="more">
+    <summary>자세히 보기 (숫자·출처)</summary>
+    <div class="facts"><div><span>전일 종가</span><b>$1.14</b></div><div><span>현재가</span><b>$1.26</b></div><div><span>시가총액</span><b>약 2억 7,697만 달러</b></div><div><span>거래량</span><b>10.9만 주</b></div></div>
+    <p class="src">stockanalysis(00:12)</p>
+  </details>
+</article>
+<article class="card" data-i="20" id="card-up-NRSN">
+  <div class="ctop"><span class="rk">제외</span><span class="tk">NRSN · ALS(루게릭병) 신약</span></div>
+  <h2>뉴로센스 테라퓨틱스</h2>
+  <p class="what">이스라엘 회사예요. <b>루게릭병(ALS) 치료제 PrimeC</b>를 개발해요. <b>소미 님이 보유한 종목</b>이에요.</p>
+  <div class="prow"><span class="price">$2.23</span><span class="pct u">+102.73%</span></div>
+  <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇮🇱 이스라엘</b></div><div><span>전일 종가</span><b>$1.10</b></div><div><span>시가총액</span><b>약 204만 달러 (약 27억 원)</b></div></div>
+  <p class="posnote">오늘 <b>장중 $4.63</b>까지 갔다가 지금 <b>$2.23</b>이에요. 하루에 4배 가까이 오르고 내린 종목이에요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>오늘 회사 뉴스는 확인되지 않았어요. 11/18 <b>12월 29일 주주총회에서 추가 액면병합 권한을 받는 안건</b>을 공지했고, 지난달엔 협업 계약으로 <b>2027년 매출 목표</b>를 내걸었어요. 거래량 5,793만 주가 몰린 수급 장세예요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>장중 $4.63 → $2.23이면 <b>고점에서 산 사람은 하루에 절반을 잃은 것</b>이에요. 시총 204만 달러(27억 원)짜리 회사에서 5,793만 주가 거래된 건 회사 재료가 아니라 물량이에요. 액면병합은 주식 수를 줄이는 것이라 가격 숫자만 커지고 가치는 그대로예요.</p></div>
+  <div class="rt">
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/NRSN" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/NRSN" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+  </div>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
+  <details class="more">
+    <summary>자세히 보기 (숫자·출처)</summary>
+    <div class="facts"><div><span>전일 종가</span><b>$1.10</b></div><div><span>현재가</span><b>$2.23</b></div><div><span>장중 고가</span><b>$4.63 (+321%)</b></div><div><span>장중 저가</span><b>$1.16</b></div><div><span>시가총액</span><b>약 204만 달러</b></div><div><span>거래량</span><b>5,793만 주</b></div><div><span>국가</span><b>이스라엘</b></div></div>
+    <p class="src">stockanalysis(00:12) · Yahoo(00:17) · Nasdaq 뉴스(11/18)</p>
+  </details>
+</article>
+<article class="card" data-i="21" id="card-up-SVRE">
+  <div class="ctop"><span class="rk">제외</span><span class="tk">SVRE · 운전자 주의분산 방지 장치</span></div>
+  <h2>세이버원</h2>
+  <p class="what">이스라엘 회사예요. 운전 중 휴대폰 조작을 막는 <b>주의분산 방지 장치</b>를 만들어요.</p>
+  <div class="prow"><span class="price">$1.37</span><span class="pct u">+21.24%</span></div>
   <span class="badge bg-y">🟡 이미 많이 오름</span> <span class="badge bg-mc">⚠️ 초소형</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$0.80</b></div><div><span>종가</span><b>$1.115</b></div><div><span>오늘 고가·저가</span><b>0.793 ~ 1.13</b></div></div>
-  <p class="posnote">거래량 <b>219만 주</b>(평소의 3.2배) · 52주 범위의 <b>14%</b> 지점 · 시총 <b>7,856만 달러</b></p>
-  <div class="why"><h3>왜 움직였나요?</h3><p><b>오늘 새 실적·임상 발표는 없어요</b>(13G 지분 공시만). 11/16 공개한 IBIO-610 비만 원숭이 <b>28주 데이터</b>(체중 -2.3%, 총지방 -9.6%, 내장지방 -10.96%)와 아밀린 프로그램이 계속 회자되며 저가에서 반등했어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>11/19 나스닥으로부터 <b>1달러 미만 통지</b>를 받았어요(2027년 5월 18일까지 회복해야 함). 오늘 1.115달러로 다시 1달러를 넘겼지만, <b>10거래일 연속</b> 1달러를 지켜야 요건이 풀려요.</p></div>
+  <div class="pos3"><div><span>본사 국가</span><b>🇮🇱 이스라엘</b></div><div><span>전일 종가</span><b>$1.13</b></div><div><span>시가총액</span><b>약 424만 달러 (약 57억 원)</b></div></div>
+  <p class="posnote">프리장 +41.6% → 본장 <b>+21.2%</b>. 거래량 1,245만 주.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p><b>실제 회사 재료가 있어요.</b> 통증 치료제 개발사 <b>드류 테라퓨틱스 인수 의향서(LOI)</b>를 체결했어요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>의향서는 <b>계약 전 단계</b>라 실제 인수로 이어질지는 아직 몰라요. 오름폭이 프리장의 절반으로 줄어든 것도 눈여겨볼 부분이에요.</p></div>
   <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/IBIO" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/IBIO" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/SVRE" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/SVRE" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 7,856만 달러</b></div><div><span>52주 범위</span><b>$0.68 ~ $3.82</b></div><div><span>전일 종가</span><b>$0.80</b></div><div><span>종가</span><b>$1.115 (+39.57%)</b></div><div><span>오늘 고가·저가</span><b>$1.13 / $0.793</b></div><div><span>거래량</span><b>219만 주 (평소의 3.2배)</b></div><div><span>임상 소식</span><b>11/16 IBIO-610 28주 비만 원숭이 데이터</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · 회사 8-K(11/16·11/20) · ad-hoc-news(11/24)</p>
+    <div class="facts"><div><span>전일 종가</span><b>$1.13</b></div><div><span>현재가</span><b>$1.37</b></div><div><span>프리장 등락</span><b>+41.6%</b></div><div><span>현재 등락</span><b>+21.2%</b></div><div><span>시가총액</span><b>약 424만 달러</b></div><div><span>재료</span><b>드류 테라퓨틱스 인수 의향서</b></div></div>
+    <p class="src">stockanalysis(00:12) · RTTNews(11/25)</p>
   </details>
 </article>
-
-<article class="card" data-i="13" id="card-up-ALDX">
-  <div class="ctop"><span class="rk">14위</span><span class="tk">ALDX · 안구건조증 신약</span></div>
-  <h2>알데이라 테라퓨틱스</h2>
-  <p class="what">안구건조증 신약(레프로자랩)을 만드는 회사예요. FDA에서 세 번 반려된 뒤 이의신청을 넣어 둔 상태예요.</p>
-  <div class="prow"><span class="price">$1.04</span><span class="pct u">+36.84%</span></div>
-  <span class="badge bg-y">🟡 이미 많이 오름</span> <span class="badge bg-mc">⚠️ 초소형</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$0.76</b></div><div><span>종가</span><b>$1.04</b></div><div><span>오늘 고가·저가</span><b>0.830 ~ 1.065</b></div></div>
-  <p class="posnote">거래량 <b>374만 주</b>(평소의 3.6배) · 52주 범위의 <b>10%</b> 지점 · 시총 <b>6,277만 달러</b></p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>11/24 공시된 <b>내부자 매수</b>가 재료예요 — CEO 토드 브래디가 11/20 장에서 <b>30만 주를 평균 0.8102달러(약 24만 3,000달러)</b>에 샀고 지분이 17% 늘었어요. BTIG도 '매수·목표 9달러'를 다시 냈어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>1달러를 넘겨야 나스닥 상장이 유지돼요(11/17 통지, 시한 2027년 5월 17일). <b>10거래일 연속 1달러</b>가 조건이라 오늘 1.04달러는 '첫날'이에요. 신약 승인과는 별개로 <b>가격 자체가 목표</b>가 된 구간이에요.</p></div>
-  <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/ALDX" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/ALDX" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
-  </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
-  <details class="more">
-    <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 6,277만 달러</b></div><div><span>52주 범위</span><b>$0.53 ~ $5.93</b></div><div><span>전일 종가</span><b>$0.76</b></div><div><span>종가</span><b>$1.04 (+36.84%)</b></div><div><span>오늘 고가·저가</span><b>$1.065 / $0.830</b></div><div><span>거래량</span><b>374만 주 (평소의 3.6배)</b></div><div><span>CEO 매수</span><b>30만 주 · 평균 $0.8102 (11/20)</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · SEC Form 4(11/24) · Tickeron(11/24)</p>
-  </details>
-</article>
-
-<article class="card" data-i="14" id="card-up-ONFO">
-  <div class="ctop"><span class="rk">15위</span><span class="tk">ONFO · 온라인 사업 인수</span></div>
-  <h2>온폴리오 홀딩스</h2>
-  <p class="what">작은 온라인 사업(교육·마케팅·전자상거래)을 사서 굴리는 회사예요. 나스닥 상장 유지가 걸려 있었어요.</p>
-  <div class="prow"><span class="price">$0.5656</span><span class="pct u">+35.34%</span></div>
+<article class="card" data-i="22" id="card-up-BLRX">
+  <div class="ctop"><span class="rk">제외</span><span class="tk">BLRX · 항암·방사선 치료</span></div>
+  <h2>바이오라인Rx</h2>
+  <p class="what">이스라엘 바이오 회사로 <b>항암·방사선 치료 보조제</b>를 개발해요.</p>
+  <div class="prow"><span class="price">$1.02</span><span class="pct u">+13.09%</span></div>
   <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$0.418</b></div><div><span>종가</span><b>$0.5656</b></div><div><span>오늘 고가·저가</span><b>0.303 ~ 0.566</b></div></div>
-  <p class="posnote">거래량 <b>3,142만 주</b>(평소 370만 주의 8.4배) · 시간외 <b>$0.4971(-12.11%)</b> · 시총 <b>141만 달러</b></p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>11/24 오전 보도자료 — <b>나스닥이 상장폐지 절차를 멈춰 세웠다(stay)</b>고 확인했어요. 11/24에 예정됐던 거래정지가 미뤄지고, 2027년 1월 5일 청문회에서 다시 다퉈요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>'상장폐지가 미뤄졌다'는 건 <b>문제가 해결된 게 아니라 시간을 번 것</b>이에요. 3분기 매출은 <b>-51%</b>였고, 시간외에서는 -12%로 되밀렸어요. 재료의 방향이 '좋아졌다'가 아니라 '아직 안 끝났다'예요.</p></div>
+  <div class="pos3"><div><span>본사 국가</span><b>🇮🇱 이스라엘</b></div><div><span>전일 종가</span><b>$0.94</b></div><div><span>시가총액</span><b>약 444만 달러 (약 60억 원)</b></div></div>
+  <p class="posnote">거래량 7.3만 주로 얇아요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>오늘 회사 뉴스는 확인되지 않았어요. 전일 헬스케어 랠리 흐름에 올라탔어요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>재료 없이 13% 오른 날은 다음 날 되돌리는 일이 흔해요. 거래량도 얇아요.</p></div>
   <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/ONFO" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/ONFO" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/BLRX" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/BLRX" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 141만 달러</b></div><div><span>52주 범위</span><b>$0.32 ~ $123.92 (병합 조정)</b></div><div><span>전일 종가</span><b>$0.418</b></div><div><span>종가</span><b>$0.5656 (+35.34%)</b></div><div><span>시간외</span><b>$0.4971 (-12.11%)</b></div><div><span>거래량</span><b>3,142만 주 (평소의 8.4배)</b></div><div><span>청문회</span><b>2027년 1월 5일</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · GlobeNewswire(11/24) · Finviz</p>
+    <div class="facts"><div><span>전일 종가</span><b>$0.94</b></div><div><span>현재가</span><b>$1.02</b></div><div><span>시가총액</span><b>약 444만 달러</b></div><div><span>거래량</span><b>7.3만 주</b></div></div>
+    <p class="src">stockanalysis(00:12) · Nasdaq 뉴스</p>
   </details>
 </article>
-
-<article class="card" data-i="15" id="card-up-TNYA">
-  <div class="ctop"><span class="rk">16위</span><span class="tk">TNYA · 심장 유전자치료</span></div>
-  <h2>테나야 테라퓨틱스</h2>
-  <p class="what">심장병의 원인을 고치는 <b>유전자 치료</b>를 만드는 회사예요(비후성 심근병증 등).</p>
-  <div class="prow"><span class="price">$0.4153</span><span class="pct u">+34.62%</span></div>
-  <span class="badge bg-y">🟡 이미 많이 오름</span> <span class="badge bg-mc">⚠️ 초소형</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$0.309</b></div><div><span>종가</span><b>$0.4153</b></div><div><span>오늘 고가·저가</span><b>0.302 ~ 0.420</b></div></div>
-  <p class="posnote">거래량 <b>702만 주</b>(평소의 2배) · 52주 범위의 <b>12%</b> 지점 · 시총 <b>9,466만 달러</b></p>
-  <div class="why"><h3>왜 움직였나요?</h3><p><b>오늘 회사 공시가 없어요.</b> 52주 최저(0.28달러) 근처까지 밀린 소형 바이오에 매수세가 돌아온 날이에요. 애널 6곳은 모두 '적극 매수'에 평균 목표가 3.67달러를 제시하고 있어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>주가가 <b>0.41달러</b>라 1달러 미만이에요 — 나스닥 최저가 요건(1달러)에 걸릴 수 있는 구간이에요. 목표가 3.67달러는 <b>임상이 잘 풀렸을 때</b>의 이야기이고, 지금은 <b>현금 소진</b>을 견디는지가 관건이에요.</p></div>
-  <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/TNYA" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/TNYA" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
-  </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
-  <details class="more">
-    <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 9,466만 달러</b></div><div><span>52주 범위</span><b>$0.28 ~ $1.46</b></div><div><span>전일 종가</span><b>$0.309</b></div><div><span>종가</span><b>$0.4153 (+34.62%)</b></div><div><span>오늘 고가·저가</span><b>$0.420 / $0.302</b></div><div><span>거래량</span><b>702만 주 (평소의 2배)</b></div><div><span>애널</span><b>6곳 적극 매수·평균 목표 $3.67</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · S&P Global 애널 집계(11/5)</p>
-  </details>
-</article>
-
-<article class="card" data-i="16" id="card-up-MTR">
-  <div class="ctop"><span class="rk">17위</span><span class="tk">MTR · 유전·가스 로열티</span></div>
-  <h2>메사 로열티 트러스트</h2>
-  <p class="what">캔자스·뉴멕시코·콜로라도 유전·가스전의 <b>로열티(사용료)만 받는 신탁</b>이에요. 직접 운영하지 않아요.</p>
-  <div class="prow"><span class="price">$2.14</span><span class="pct u">+34.59%</span></div>
-  <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$1.59</b></div><div><span>종가</span><b>$2.14</b></div><div><span>오늘 고가·저가</span><b>1.57 ~ 2.23</b></div></div>
-  <p class="posnote">거래량 <b>4만 621주</b>뿐(평소 7,000주) · 52주 범위의 <b>16%</b> 지점 · 시총 <b>398만 달러</b></p>
-  <div class="why"><h3>왜 움직였나요?</h3><p><b>오늘 회사 공시가 없어요.</b> 11/19에 '11월 분배금 없음'을 알렸고(3분기 로열티 수입 0원, 준비금 200만 달러 목표), 오늘은 국제유가(WTI +1.57%)가 오른 날이라 그와 함께 움직인 것으로 보여요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>하루 <b>4만 주</b>만 거래됐어요. 배당(분배금)이 끊긴 신탁이라 '오른 이유'가 회사에 있는 게 아니라 <b>사는 사람이 잠깐 몰린 것</b>이에요. 배당 목적으로 접근할 종목은 아니에요.</p></div>
-  <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/MTR" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/MTR" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
-  </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
-  <details class="more">
-    <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 398만 달러</b></div><div><span>52주 범위</span><b>$1.44 ~ $5.83</b></div><div><span>전일 종가</span><b>$1.59</b></div><div><span>종가</span><b>$2.14 (+34.59%)</b></div><div><span>오늘 고가·저가</span><b>$2.23 / $1.57</b></div><div><span>거래량</span><b>4만 621주 (평소 7,000주)</b></div><div><span>분배금</span><b>11월 없음 (11/19 공지)</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · SEC 8-K(11/19) · ad-hoc-news(11/24)</p>
-  </details>
-</article>
-
-<article class="card" data-i="17" id="card-up-ALTG">
-  <div class="ctop"><span class="rk">18위</span><span class="tk">ALTG · 산업장비 딜러</span></div>
-  <h2>알타 이큅먼트</h2>
-  <p class="what">미국에서 <b>지게차·건설장비·산업장비를 파는 딜러</b>예요(임대·수리·부품까지).</p>
-  <div class="prow"><span class="price">$6.14</span><span class="pct u">+33.19%</span></div>
-  <span class="badge bg-g">🟢 힘 좋음</span> <span class="badge bg-mc">⚠️ 초소형</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$4.61</b></div><div><span>종가</span><b>$6.14</b></div><div><span>오늘 고가·저가</span><b>4.83 ~ 6.37</b></div></div>
-  <p class="posnote">거래량 <b>242만 주</b>(평소의 6.9배) · 52주 범위의 <b>42%</b> 지점 · 시총 <b>2억 160만 달러</b></p>
-  <div class="why"><h3>왜 움직였나요?</h3><p><b>11/23 장 마감 뒤 8-K</b> — 트럭 딜러 <b>잭슨 그룹 피터빌트</b>를 기업가치 약 <b>3억 9,900만 달러</b>(EBITDA의 6.3배)에 인수하는 계약을 맺었어요. 같은 날 <b>바이킹 글로벌</b>이 3억 3,840만 달러를 전환우선주(주당 6.33달러)로 넣기로 했어요. 2027년 1분기 종결 예정이에요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>인수 금액이 알타 <b>회사 몸값(1억 5,000만 달러)의 두 배 이상</b>이에요. 회사가 두 배로 커지는 대신 <b>새 주식(전환우선주)</b>이 생겨 기존 주주 지분은 희석돼요. B.Riley는 '매수·목표 9달러'를 유지했어요.</p></div>
-  <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/ALTG" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/ALTG" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
-  </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
-  <details class="more">
-    <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 2억 160만 달러</b></div><div><span>52주 범위</span><b>$4.30 ~ $8.69</b></div><div><span>전일 종가</span><b>$4.61</b></div><div><span>종가</span><b>$6.14 (+33.19%)</b></div><div><span>오늘 고가·저가</span><b>$6.37 / $4.83</b></div><div><span>거래량</span><b>242만 주 (평소의 6.9배)</b></div><div><span>인수 규모</span><b>약 3억 9,900만 달러 (EBITDA 6.3배)</b></div><div><span>바이킹 투자</span><b>3억 3,840만 달러 (전환가 6.33달러)</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · 회사 8-K·보도자료(11/23) · StockStory·Seeking Alpha</p>
-  </details>
-</article>
-
-<article class="card" data-i="18" id="card-up-BDRX">
-  <div class="ctop"><span class="rk">19위</span><span class="tk">BDRX · 항암 3상</span></div>
-  <h2>바이오덱사</h2>
-  <p class="what">영국 회사로, 가족성 선종성 용종증(FAP) 3상 시험(eRapa)을 하는 <b>임상 단계 항암 회사</b>예요.</p>
-  <div class="prow"><span class="price">$2.60</span><span class="pct u">+32.65%</span></div>
-  <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$1.96</b></div><div><span>종가</span><b>$2.60</b></div><div><span>오늘 고가·저가</span><b>2.10 ~ 2.66</b></div></div>
-  <p class="posnote">거래량 <b>353만 주</b>(평소 38만 주의 9.4배) · 52주 범위의 <b>0.2%</b> 지점 · 시총 <b>135만 달러</b></p>
-  <div class="why"><h3>왜 움직였나요?</h3><p><b>오늘 공시가 없어요.</b> 최근 재료는 11/9 업데이트(3상 168명 중 <b>112명 등록</b>, MTX240 사전 IND 회의 12/10)였어요. 52주 최저(1.85달러) 바로 위에서 반등한 수준이에요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>시총 <b>135만 달러</b>, 발행주식 <b>52만 주</b>짜리 회사예요. 매출이 없고 순손실 586만 달러라 <b>자금 조달이 곧 주가 희석</b>으로 이어져요. 1년 전 357달러였던 주가가 2.60달러라는 건 그 사이 <b>병합과 유상증자를 거듭했다</b>는 뜻이에요.</p></div>
-  <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/BDRX" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/BDRX" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
-  </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
-  <details class="more">
-    <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 135만 달러</b></div><div><span>52주 범위</span><b>$1.85 ~ $357.60 (병합 조정)</b></div><div><span>전일 종가</span><b>$1.96</b></div><div><span>종가</span><b>$2.60 (+32.65%)</b></div><div><span>오늘 고가·저가</span><b>$2.66 / $2.10</b></div><div><span>거래량</span><b>353만 주 (평소의 9.4배)</b></div><div><span>3상 진행</span><b>168명 중 112명 등록 (11/9)</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · GlobeNewswire(11/9) · Finviz</p>
-  </details>
-</article>
-
-<article class="card" data-i="19" id="card-up-ALXO">
-  <div class="ctop"><span class="rk">20위</span><span class="tk">ALXO · CD47 항암</span></div>
-  <h2>ALX 온콜로지</h2>
-  <p class="what">CD47 항체(에보르파셉트)와 항체-약물접합체(ALX2004)를 만드는 <b>항암 신약</b> 회사예요.</p>
-  <div class="prow"><span class="price">$1.52</span><span class="pct u">+31.03%</span></div>
-  <span class="badge bg-y">🟡 이미 많이 오름</span> <span class="badge bg-mc">⚠️ 초소형</span>
-  <div class="pos3"><div><span>전일 종가</span><b>$1.16</b></div><div><span>종가</span><b>$1.52</b></div><div><span>오늘 고가·저가</span><b>1.140 ~ 1.63</b></div></div>
-  <p class="posnote">거래량 <b>398만 주</b>(평소의 2.9배) · 52주 범위의 <b>37%</b> 지점 · 시총 <b>1억 9,650만 달러</b> · 현금 1억 4,720만 달러(2028년 상반기까지)</p>
-  <div class="why"><h3>왜 움직였나요?</h3><p><b>오늘 새 공시는 없어요.</b> 11/23 <b>새 최고의학책임자(CMO)</b>를 선임했고, <b>12월에 ALX2004 1상 안전성·초기 효능 데이터</b>를 내놓을 예정이라 그 기대가 붙었어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>12월 데이터가 <b>이 회사의 다음 갈림길</b>이에요. 애널 7곳은 '적극 매수', 평균 목표가 4.60달러예요. 다만 임상 단계라 <b>데이터가 나오기 전까지는 기대와 실망으로만 움직여요</b>.</p></div>
-  <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/ALXO" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/ALXO" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
-  </div>
-  <p class="asof">위 가격은 11/24(화) 미국 <b>정규장 마감</b>(한국시간 11/25 06:00) 기준이에요.</p>
-  <details class="more">
-    <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>시총</span><b>약 1억 9,650만 달러</b></div><div><span>52주 범위</span><b>$0.86 ~ $2.66</b></div><div><span>전일 종가</span><b>$1.16</b></div><div><span>종가</span><b>$1.52 (+31.03%)</b></div><div><span>오늘 고가·저가</span><b>$1.63 / $1.14</b></div><div><span>거래량</span><b>398만 주 (평소의 2.9배)</b></div><div><span>다음 일정</span><b>12월 ALX2004 1상 데이터</b></div></div>
-    <p class="src">stockanalysis(11/24 종가) · Yahoo Finance · 회사 8-K(11/23) · Investing.com</p>
-  </details>
-</article>
-
 </div>
 
 <div class="cards" id="krcards" hidden>
-<article class="card" data-k="0" id="card-kr-SOXL">
-  <div class="ctop"><span class="rk">인기 1위</span><span class="tk">SOXL · 레버리지 ETF</span></div>
-  <h2>반도체 3배</h2>
-  <p class="what">필라델피아 반도체지수를 <b>하루 3배</b> 따라가는 상품이에요.</p>
-  <div class="prow"><span class="price">$32.60</span><span class="pct d">-24.55%</span></div>
-  <span class="badge bg-r">🔴 변동성 큼·조심</span>
-  <div class="pos3"><div><span>원화 표시</span><b>44,262원 (+0.82%)</b></div><div><span>순자산(AUM)</span><b>18.4조 원</b></div><div><span>거래대금</span><b>1위</b></div></div>
-  <p class="posnote">어제 <b>+40.4%</b> → 오늘 <b>-24.55%</b>. 이틀을 곱하면 <b>+5.9%</b>밖에 안 남아요.</p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>필라델피아 반도체가 <b>-7.88%</b> 빠졌으니 3배 상품은 <b>-24%</b>대까지 밀렸어요. 어제 반대로 +40% 오른 종목이에요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>3배 상품은 <b>하루 기준</b>이라, +40% 다음 -25%가 나면 원금은 +6% 수준으로 줄어요. 오래 들고 있으면 이 '녹아내림'이 쌓여요.</p></div>
+<article class="card" data-i="0" id="card-kr-NXAT">
+  <div class="ctop"><span class="rk">인기 1위</span><span class="tk">NXAT · AI 인프라 투자</span></div>
+  <h2>넥서스 어드밴스드 테크놀로지스</h2>
+  <p class="what">토스증권 <b>관심종목 인기 1위</b>예요. 9월에 K Wave Media에서 AI 인프라 회사로 이름을 바꿨어요.</p>
+  <div class="prow"><span class="price">$0.884</span><span class="pct u">+108.44%</span></div>
+  <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇰🇾 케이맨 제도</b></div><div><span>전일 종가</span><b>$0.424</b></div><div><span>시가총액</span><b>약 216만 달러 (약 29억 원)</b></div></div>
+  <p class="posnote">토스에서 <b>1,174원(+106%)</b>으로 보였어요. 프리장 급등 목록에도 없는 종목이 본장에서 인기 1위로 올라왔어요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>오늘 새 공시는 확인 안 됨. 10월 6일 5억 달러 방산기술 역합병 독점협상 공시가 남아 있어요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>인기 1위라고 좋은 회사라는 뜻은 아니에요. <b>사람들이 많이 누른 것</b>일 뿐이고, 시총은 29억 원이에요.</p></div>
+  <div class="rt">
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/NXAT" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/NXAT" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+  </div>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
+  <details class="more">
+    <summary>자세히 보기 (숫자·출처)</summary>
+    <div class="facts"><div><span>토스 원화가</span><b>1,174원 (+106.10%)</b></div><div><span>현재가</span><b>$0.884</b></div><div><span>시가총액</span><b>약 216만 달러</b></div><div><span>토스 인기</span><b>1위</b></div></div>
+    <p class="src">토스증권 실시간(00:05) · stockanalysis(00:12)</p>
+  </details>
+</article>
+<article class="card" data-i="1" id="card-kr-SOXL">
+  <div class="ctop"><span class="rk">인기 2위</span><span class="tk">SOXL · 필라델피아 반도체 3배</span></div>
+  <h2>반도체 3배 레버리지</h2>
+  <p class="what">필라델피아 반도체 지수를 <b>3배</b> 따라가도록 만든 ETF예요. 오르면 3배, 내리면 3배로 움직여요.</p>
+  <div class="prow"><span class="price">$27.22</span><span class="pct d">-16.50%</span></div>
+  <span class="badge bg-r">🔴 3배 레버리지·위험</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국(ETF)</b></div><div><span>전일 종가</span><b>$32.60</b></div><div><span>시가총액</span><b>ETF (시총 대신 운용규모)</b></div></div>
+  <p class="posnote">토스 <b>거래대금 1위</b>. 원화로 <b>36,693원(-16.22%)</b>이었어요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>반도체주가 무너졌어요 — 엔비디아 -6.6%, 마이크론 -8%, 샌디스크 -7.7%. 3배 ETF라 하락이 3배로 커졌어요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p><b>레버리지는 하루만 보고 만든 상품</b>이에요. 3일 들고 있으면 지수가 제자리로 와도 손실이 남을 수 있어요.</p></div>
   <div class="rt">
     <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/SOXL" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
     <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/SOXL" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">달러 가격·등락률은 11/24 정규장 마감 기준, 원화 표시는 토스증권 표시가(한국시간 11/25 07:04)예요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>토스 순위</span><b>1위 (거래대금 30억 원)</b></div><div><span>정규장 종가</span><b>$32.60 (-24.55%)</b></div><div><span>원화 표시</span><b>44,262원 (시간외 기준)</b></div><div><span>시간외</span><b>+0.82%</b></div><div><span>전일</span><b>+40.4%</b></div></div>
-    <p class="src">토스증권(11/25 07:04) · Yahoo Finance 종가</p>
+    <div class="facts"><div><span>전일 종가</span><b>$32.60</b></div><div><span>현재가</span><b>$27.22</b></div><div><span>원화가(토스)</span><b>36,693원 (-16.22%)</b></div><div><span>토스 거래대금</span><b>1위</b></div><div><span>성격</span><b>3배 레버리지 ETF</b></div></div>
+    <p class="src">Yahoo(00:17) · 토스증권(00:05)</p>
   </details>
 </article>
-
-<article class="card" data-k="1" id="card-kr-SOXS">
-  <div class="ctop"><span class="rk">인기 2위</span><span class="tk">SOXS · 레버리지 ETF</span></div>
+<article class="card" data-i="2" id="card-kr-SOXS">
+  <div class="ctop"><span class="rk">인기 3위</span><span class="tk">SOXS · 필라델피아 반도체 3배 하락</span></div>
   <h2>반도체 3배 인버스</h2>
-  <p class="what">반도체지수를 <b>하루 -3배</b> 따라가는 상품이에요(지수가 빠지면 오릅니다).</p>
-  <div class="prow"><span class="price">$60.96</span><span class="pct u">+24.13%</span></div>
-  <span class="badge bg-r">🔴 변동성 큼·조심</span>
-  <div class="pos3"><div><span>원화 표시</span><b>81,523원 (-0.68%)</b></div><div><span>순자산(AUM)</span><b>1.3조 원</b></div><div><span>거래대금</span><b>2위</b></div></div>
-  <p class="posnote">어제 <b>-40.1%</b> → 오늘 <b>+24.13%</b>. 이틀 누적은 <b>-25%</b>대로 여전히 마이너스예요.</p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>필라델피아 반도체 <b>-7.88%</b>의 인버스 3배예요. 어제 급락분을 오늘 하루에 다 되돌리지는 못했어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>인버스 상품도 <b>하루짜리</b>예요. 오르내림이 반복되면 양쪽 다 녹아요 — '헤지' 목적이 아니면 오래 들지 않는 게 맞아요.</p></div>
+  <p class="what">반도체 지수가 <b>내리면 3배로 오르는</b> ETF예요. 오늘 같은 날 웃는 종목이에요.</p>
+  <div class="prow"><span class="price">$71.145</span><span class="pct u">+16.71%</span></div>
+  <span class="badge bg-y">🟡 3배 레버리지</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국(ETF)</b></div><div><span>전일 종가</span><b>$60.96</b></div><div><span>시가총액</span><b>ETF (시총 대신 운용규모)</b></div></div>
+  <p class="posnote">토스 <b>거래대금 2위</b>. 원화로 <b>95,395원(+16.46%)</b>이었어요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>반도체 매도세 덕에 3배로 올랐어요. 오늘 오른 이유가 내일은 내리는 이유가 될 수 있어요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>SOXL이 내린 만큼 오르는 상품이에요. <b>같은 사건에 반대편에 서는 것</b>이라 방향이 바뀌면 그대로 뒤집혀요.</p></div>
   <div class="rt">
     <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/SOXS" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
     <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/SOXS" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">달러 가격·등락률은 11/24 정규장 마감 기준, 원화 표시는 토스증권 표시가(한국시간 11/25 07:04)예요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>토스 순위</span><b>2위 (거래대금 13억 원)</b></div><div><span>정규장 종가</span><b>$60.96 (+24.13%)</b></div><div><span>원화 표시</span><b>81,523원 (시간외 기준)</b></div><div><span>시간외</span><b>-0.68%</b></div><div><span>전일</span><b>-40.1%</b></div></div>
-    <p class="src">토스증권(11/25 07:04) · Yahoo Finance 종가</p>
+    <div class="facts"><div><span>전일 종가</span><b>$60.96</b></div><div><span>현재가</span><b>$71.145</b></div><div><span>원화가(토스)</span><b>95,395원 (+16.46%)</b></div><div><span>토스 거래대금</span><b>2위</b></div></div>
+    <p class="src">Yahoo(00:17) · 토스증권(00:05)</p>
   </details>
 </article>
-
-<article class="card" data-k="2" id="card-kr-DELL">
-  <div class="ctop"><span class="rk">인기 3위</span><span class="tk">DELL</span></div>
-  <h2>델 테크놀로지스</h2>
-  <p class="what">서버·PC를 만드는 회사예요. 요즘은 엔비디아 칩을 넣은 <b>AI 서버</b>가 회사의 핵심이에요.</p>
-  <div class="prow"><span class="price">$295.28</span><span class="pct d">-11.83%</span></div>
-  <span class="badge bg-y">🟡 이미 많이 오름</span>
-  <div class="pos3"><div><span>원화 표시</span><b>408,962원 (+2.85%)</b></div><div><span>시가총액</span><b>284.8조 원</b></div><div><span>거래대금</span><b>3위</b></div></div>
-  <p class="posnote">정규장에서 <b>-11.83%</b> 빠진 뒤, 마감 후 실적 발표로 시간외 <b>+3%</b>대 반등.</p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>장중에는 AI주 차익실현 매물에 밀렸어요. 그런데 <b>마감 뒤 실적</b>이 사상 최대였어요 — 매출 <b>549억 달러(2배)</b>, 조정 EPS <b>9.45달러</b>(예상 6.59), AI 서버 수주잔고 <b>1,323억 달러</b>.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>실적이 좋아도 <b>장중에 미리 팔린</b> 종목이에요. '실적은 좋은데 왜 빠졌지?' 싶으면 이미 많이 올라서(올해 +135%) <b>차익실현이 먼저 나온 것</b>이에요.</p></div>
-  <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/DELL" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/DELL" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
-  </div>
-  <p class="asof">달러 가격·등락률은 11/24 정규장 마감 기준, 원화 표시는 토스증권 표시가(한국시간 11/25 07:04)예요.</p>
-  <details class="more">
-    <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>토스 순위</span><b>3위 (거래대금 10억 원)</b></div><div><span>정규장 종가</span><b>$295.28 (-11.83%)</b></div><div><span>원화 표시</span><b>408,962원 (시간외 +2.85%)</b></div><div><span>3분기 매출</span><b>549억 달러 (+103%)</b></div><div><span>3분기 조정 EPS</span><b>$9.45 (예상 $6.59)</b></div><div><span>AI 서버 잔고</span><b>1,323억 달러</b></div></div>
-    <p class="src">토스증권(11/25 07:04) · 회사 실적발표(11/25 05:05 KST) · CNBC·Reuters</p>
-  </details>
-</article>
-
-<article class="card" data-k="3" id="card-kr-NVDA">
-  <div class="ctop"><span class="rk">인기 4위</span><span class="tk">NVDA</span></div>
+<article class="card" data-i="3" id="card-kr-NVDA">
+  <div class="ctop"><span class="rk">인기 4위</span><span class="tk">NVDA · AI 반도체</span></div>
   <h2>엔비디아</h2>
-  <p class="what">AI 반도체 1위 회사예요. 데이터센터용 GPU를 팔아요.</p>
-  <div class="prow"><span class="price">$155.38</span><span class="pct d">-5.86%</span></div>
-  <span class="badge bg-y">🟡 이미 많이 오름</span>
-  <div class="pos3"><div><span>원화 표시</span><b>206,339원 (-1.38%)</b></div><div><span>시가총액</span><b>5,319.4조 원</b></div><div><span>거래대금</span><b>4위</b></div></div>
-  <p class="posnote">어제 <b>+31.2%</b> → 오늘 <b>-5.86%</b>. 10/6 사상 최고가에서는 아직 <b>-35%</b> 아래예요.</p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>어제 하루에 시총 <b>9,000억 달러</b>가 늘었던 급등분을 되돌렸어요. 젠슨 황 CEO 복귀의 <b>지배구조(견제 장치) 우려</b>가 다시 이야기됐어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>하루 +31% 뒤 -6%는 '정상적인 숨 고르기' 범위예요. 문제는 <b>회사 자체 뉴스</b>(CEO 사임·복귀, SEC 조사)라 실적과 무관하게 흔들린다는 점이에요.</p></div>
+  <p class="what">AI 그래픽처리장치(GPU)를 만드는 세계 1위 회사예요.</p>
+  <div class="prow"><span class="price">$145.145</span><span class="pct d">-6.59%</span></div>
+  <span class="badge bg-y">🟡 대형주</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국</b></div><div><span>전일 종가</span><b>$155.38</b></div><div><span>시가총액</span><b>약 5,042조 원</b></div></div>
+  <p class="posnote">토스 인기 <b>4위</b>, 원화로 <b>195,547원(-6.33%)</b>. 장중 $141.17까지 내려갔어요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p><b>칩 수출 규제 강화 우려</b>와 <b>경영진 조사</b> 보도가 겹쳤어요(토스 AI 요약).</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>시총 5,042조 원 회사가 하루 6% 빠지면 <b>지수 전체</b>가 흔들려요. 오늘 반도체 매도는 여기서 시작됐어요.</p></div>
   <div class="rt">
     <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/NVDA" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
     <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/NVDA" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">달러 가격·등락률은 11/24 정규장 마감 기준, 원화 표시는 토스증권 표시가(한국시간 11/25 07:04)예요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>토스 순위</span><b>4위 (거래대금 6.5억 원)</b></div><div><span>정규장 종가</span><b>$155.38 (-5.86%)</b></div><div><span>원화 표시</span><b>206,339원 (시간외 -1.38%)</b></div><div><span>거래량</span><b>3억 8,206만 주</b></div><div><span>전일</span><b>+31.2%</b></div><div><span>10/6 최고가 대비</span><b>-35%</b></div></div>
-    <p class="src">토스증권(11/25 07:04) · Yahoo Finance 종가 · CNBC(11/24)</p>
+    <div class="facts"><div><span>전일 종가</span><b>$155.38</b></div><div><span>현재가</span><b>$145.145</b></div><div><span>장중 저가</span><b>$141.17</b></div><div><span>원화가(토스)</span><b>195,547원</b></div><div><span>재료</span><b>수출규제·경영진 조사 우려</b></div></div>
+    <p class="src">Yahoo(00:17) · 토스증권(00:05)</p>
   </details>
 </article>
-
-<article class="card" data-k="4" id="card-kr-AMBA">
-  <div class="ctop"><span class="rk">인기 5위</span><span class="tk">AMBA</span></div>
-  <h2>암바렐라</h2>
-  <p class="what">카메라·영상에 들어가는 <b>엣지 AI 반도체</b>를 만드는 회사예요(보안카메라·차량).</p>
-  <div class="prow"><span class="price">$44.47</span><span class="pct d">-19.96%</span></div>
-  <span class="badge bg-r">🔴 변동성 큼·조심</span>
-  <div class="pos3"><div><span>원화 표시</span><b>36,829원 (-38.49%)</b></div><div><span>시가총액</span><b>3.3조 원</b></div><div><span>거래대금</span><b>5위</b></div></div>
-  <p class="posnote">정규장 <b>-20%</b>에 이어, 실적 발표 후 시간외에서 <b>한 번 더</b> 급락(-30~38%대).</p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>4분기(1월 마감) 가이던스가 <b>7,000만~7,500만 달러</b>로 예상(1억 1,200만 달러)의 <b>3분의 2</b> 수준이었어요. CEO는 "<b>메모리 가격 급등·공급 부족</b>으로 고객들이 전망을 낮추고 있다"고 했어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>실적(EPS)은 예상보다 좋았는데 <b>다음 분기 전망</b>이 무너지면 주가는 이렇게 빠져요. '지금보다 앞으로'를 보는 시장의 성질이에요.</p></div>
-  <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/AMBA" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/AMBA" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
-  </div>
-  <p class="asof">달러 가격·등락률은 11/24 정규장 마감 기준, 원화 표시는 토스증권 표시가(한국시간 11/25 07:04)예요.</p>
-  <details class="more">
-    <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>토스 순위</span><b>5위 (거래대금 5.6억 원)</b></div><div><span>정규장 종가</span><b>$44.47 (-19.96%)</b></div><div><span>시간외</span><b>-30~38%대 급락</b></div><div><span>3분기 매출</span><b>1억 1,522만 달러 (예상 1억 1,944만)</b></div><div><span>4분기 가이던스</span><b>7,000만~7,500만 달러 (예상 1억 1,219만)</b></div></div>
-    <p class="src">토스증권(11/25 07:04) · 회사 실적발표(11/25 06:15 KST) · Benzinga·Investing.com</p>
-  </details>
-</article>
-
-<article class="card" data-k="5" id="card-kr-GDRX">
-  <div class="ctop"><span class="rk">인기 6위</span><span class="tk">GDRX</span></div>
-  <h2>굿알엑스 홀딩스</h2>
-  <p class="what">미국에서 <b>처방약 가격을 비교·할인</b>해 주는 앱·웹서비스예요.</p>
-  <div class="prow"><span class="price">$3.00</span><span class="pct d">-0.99%</span></div>
-  <span class="badge bg-g">🟢 힘 좋음</span>
-  <div class="pos3"><div><span>원화 표시</span><b>5,170원 (+28.42%)</b></div><div><span>시가총액</span><b>1.4조 원</b></div><div><span>거래대금</span><b>6위</b></div></div>
-  <p class="posnote">정규장은 <b>-0.99%</b>로 조용했는데, 실적 발표 뒤 시간외에서 <b>+28%</b> 뛰었어요.</p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>3분기 매출 <b>2억 1,840만 달러(+11%)</b>, 조정 EPS <b>0.11달러</b>(예상 0.08), 연간 매출·이익 가이던스 <b>상향</b>. 제약사 직접 프로그램(Pharma Direct) 매출이 <b>+93%</b> 늘었어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>여기는 <b>실적이 진짜 좋아진</b> 쪽이에요. 다만 1·2분기 실적을 <b>다시 작성(정정)</b>했다는 점은 기억해 두세요 — 회계 문제가 있었다는 뜻이라 신뢰가 회복되는 중이에요.</p></div>
-  <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/GDRX" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/GDRX" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
-  </div>
-  <p class="asof">달러 가격·등락률은 11/24 정규장 마감 기준, 원화 표시는 토스증권 표시가(한국시간 11/25 07:04)예요.</p>
-  <details class="more">
-    <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>토스 순위</span><b>6위 (거래대금 4.0억 원)</b></div><div><span>정규장 종가</span><b>$3.00 (-0.99%)</b></div><div><span>시간외</span><b>+28%대</b></div><div><span>3분기 매출</span><b>2억 1,840만 달러 (+11%)</b></div><div><span>조정 EPS</span><b>$0.11 (예상 $0.08)</b></div><div><span>연간 가이던스</span><b>상향</b></div></div>
-    <p class="src">토스증권(11/25 07:04) · 회사 실적발표(11/25 06:15 KST) · Seeking Alpha·TipRanks</p>
-  </details>
-</article>
-
-<article class="card" data-k="6" id="card-kr-MU">
-  <div class="ctop"><span class="rk">인기 7위</span><span class="tk">MU</span></div>
-  <h2>마이크론 테크놀로지</h2>
-  <p class="what">메모리 반도체(D램·HBM)를 만드는 회사예요. AI 서버에 꼭 들어가요.</p>
-  <div class="prow"><span class="price">$629.79</span><span class="pct d">-11.01%</span></div>
-  <span class="badge bg-y">🟡 이미 많이 오름</span>
-  <div class="pos3"><div><span>원화 표시</span><b>846,593원 (-0.20%)</b></div><div><span>시가총액</span><b>1,070.8조 원</b></div><div><span>거래대금</span><b>7위</b></div></div>
-  <p class="posnote">어제 <b>+19.0%</b> → 오늘 <b>-11.01%</b>. 하루 만에 어제 상승분의 절반 이상을 반납했어요.</p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>메모리 가격·수요에 대한 우려가 다시 커졌고, <b>BNP파리바가 투자의견을 하향</b>했어요. 필라델피아 반도체 -7.88%의 중심에 있었어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>마이크론은 올해 <b>3배 이상</b> 오른 종목이라 한 번 흔들릴 때 낙폭이 커요. 메모리 가격이 오르면 좋고, 꺾이면 이렇게 한 번에 빠져요.</p></div>
-  <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/MU" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/MU" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
-  </div>
-  <p class="asof">달러 가격·등락률은 11/24 정규장 마감 기준, 원화 표시는 토스증권 표시가(한국시간 11/25 07:04)예요.</p>
-  <details class="more">
-    <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>토스 순위</span><b>7위 (거래대금 2.0억 원)</b></div><div><span>정규장 종가</span><b>$629.79 (-11.01%)</b></div><div><span>원화 표시</span><b>846,593원 (시간외 -0.20%)</b></div><div><span>전일</span><b>+19.0%</b></div><div><span>투자의견</span><b>BNP파리바 하향</b></div></div>
-    <p class="src">토스증권(11/25 07:04) · Yahoo Finance 종가 · Investopedia(11/24)</p>
-  </details>
-</article>
-
-<article class="card" data-k="7" id="card-kr-SPCX">
-  <div class="ctop"><span class="rk">인기 8위</span><span class="tk">SPCX</span></div>
-  <h2>스페이스X</h2>
-  <p class="what">로켓(팰컨·스타십)과 위성 인터넷(스타링크)을 하는 회사예요. 2026년에 상장했어요.</p>
-  <div class="prow"><span class="price">$125.81</span><span class="pct d">-5.65%</span></div>
-  <span class="badge bg-y">🟡 이미 많이 오름</span>
-  <div class="pos3"><div><span>원화 표시</span><b>170,398원 (+0.53%)</b></div><div><span>시가총액</span><b>2,421.9조 원</b></div><div><span>거래대금</span><b>8위</b></div></div>
-  <p class="posnote">어제 <b>+5.0%</b> → 오늘 <b>-5.65%</b>. 시총이 삼성전자의 몇 배인 종목이에요.</p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>AI·기술주에서 돈이 빠져나간 날이라 함께 밀렸어요. 회사 자체의 새 소식은 없었어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>상장한 지 얼마 안 된 대형주라 <b>지수 편입·수급</b>으로 움직여요. SpaceX를 사는 건 '우주'에 투자하는 것보다 <b>AI 유동성</b>에 투자하는 것에 가까워요.</p></div>
-  <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/SPCX" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/SPCX" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
-  </div>
-  <p class="asof">달러 가격·등락률은 11/24 정규장 마감 기준, 원화 표시는 토스증권 표시가(한국시간 11/25 07:04)예요.</p>
-  <details class="more">
-    <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>토스 순위</span><b>8위 (거래대금 1.9억 원)</b></div><div><span>정규장 종가</span><b>$125.81 (-5.65%)</b></div><div><span>원화 표시</span><b>170,398원 (시간외 +0.53%)</b></div><div><span>전일</span><b>+5.0%</b></div></div>
-    <p class="src">토스증권(11/25 07:04) · Yahoo Finance 종가</p>
-  </details>
-</article>
-
-<article class="card" data-k="8" id="card-kr-KORU">
-  <div class="ctop"><span class="rk">인기 9위</span><span class="tk">KORU · 레버리지 ETF</span></div>
-  <h2>한국 3배</h2>
-  <p class="what">한국 증시(코스피)를 <b>하루 3배</b> 따라가는 미국 상장 ETF예요.</p>
-  <div class="prow"><span class="price">$5.47</span><span class="pct d">-10.77%</span></div>
-  <span class="badge bg-r">🔴 변동성 큼·조심</span>
-  <div class="pos3"><div><span>원화 표시</span><b>7,325원 (-0.54%)</b></div><div><span>순자산(AUM)</span><b>9,648억 원</b></div><div><span>거래대금</span><b>9위</b></div></div>
-  <p class="posnote">코스피는 어제 <b>+6.31%</b>였는데 KORU는 <b>-10.77%</b> — 어제 미리 +28.8% 올랐던 걸 되돌린 거예요.</p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>한국 장이 오르기 <b>전날 밤</b> 미국에서 KORU가 먼저 +28.8% 뛰었어요. 오늘은 그 기대가 이미 반영된 뒤라 <b>차익실현</b>이 나왔어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>'코스피가 올랐는데 왜 KORU는 빠졌지?'의 답이에요 — <b>3배 상품은 하루 전에 미리 움직여요</b>. 뉴스와 가격의 시차를 보는 좋은 예예요.</p></div>
-  <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/KORU" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/KORU" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
-  </div>
-  <p class="asof">달러 가격·등락률은 11/24 정규장 마감 기준, 원화 표시는 토스증권 표시가(한국시간 11/25 07:04)예요.</p>
-  <details class="more">
-    <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>토스 순위</span><b>9위 (거래대금 1.6억 원)</b></div><div><span>정규장 종가</span><b>$5.47 (-10.77%)</b></div><div><span>원화 표시</span><b>7,325원 (시간외 -0.54%)</b></div><div><span>전일</span><b>+28.8%</b></div><div><span>코스피(11/24)</span><b>5,006.03 (+6.31%)</b></div></div>
-    <p class="src">토스증권(11/25 07:04) · Yahoo Finance 종가</p>
-  </details>
-</article>
-
-<article class="card" data-k="9" id="card-kr-SNDK">
-  <div class="ctop"><span class="rk">인기 10위</span><span class="tk">SNDK</span></div>
-  <h2>샌디스크</h2>
-  <p class="what">낸드플래시(SSD·메모리카드) 메모리를 만드는 회사예요. 웨스턴디지털에서 분사했어요.</p>
-  <div class="prow"><span class="price">$77.95</span><span class="pct d">-11.13%</span></div>
-  <span class="badge bg-y">🟡 이미 많이 오름</span>
-  <div class="pos3"><div><span>원화 표시</span><b>104,496원 (-0.39%)</b></div><div><span>시가총액</span><b>137.4조 원</b></div><div><span>거래대금</span><b>10위</b></div></div>
-  <p class="posnote"><b>-11.13%</b>로 마이크론(-11.01%)보다 조금 더 빠졌어요. 올해 낸드 가격 상승으로 크게 올랐던 종목이에요.</p>
-  <div class="why"><h3>왜 움직였나요?</h3><p><b>낸드 가격 하락 전망</b>이 나왔어요. 메모리 3인방(마이크론·SK하이닉스·샌디스크)이 같은 이유로 함께 밀렸어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>메모리 주식은 <b>가격 사이클</b>이 전부예요. '지금 비싸다'보다 '<b>다음 분기에 가격이 오르나</b>'가 주가를 정해요.</p></div>
-  <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/SNDK" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/SNDK" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
-  </div>
-  <p class="asof">달러 가격·등락률은 11/24 정규장 마감 기준, 원화 표시는 토스증권 표시가(한국시간 11/25 07:04)예요.</p>
-  <details class="more">
-    <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>토스 순위</span><b>10위 (거래대금 1.6억 원)</b></div><div><span>정규장 종가</span><b>$77.95 (-11.13%)</b></div><div><span>원화 표시</span><b>104,496원 (시간외 -0.39%)</b></div><div><span>거래량</span><b>9,611만 주</b></div></div>
-    <p class="src">토스증권(11/25 07:04) · Yahoo Finance 종가</p>
-  </details>
-</article>
-
-<article class="card" data-k="10" id="card-kr-TQQQ">
-  <div class="ctop"><span class="rk">인기 11위</span><span class="tk">TQQQ · 레버리지 ETF</span></div>
-  <h2>나스닥 3배</h2>
-  <p class="what">나스닥100 지수를 <b>하루 3배</b> 따라가는 상품이에요.</p>
-  <div class="prow"><span class="price">$46.19</span><span class="pct d">-5.93%</span></div>
-  <span class="badge bg-r">🔴 변동성 큼·조심</span>
-  <div class="pos3"><div><span>원화 표시</span><b>62,185원 (-0.02%)</b></div><div><span>순자산(AUM)</span><b>38.2조 원</b></div><div><span>거래대금</span><b>11위</b></div></div>
-  <p class="posnote">나스닥100이 <b>-2%</b>대 빠져서 3배 상품은 <b>-5.93%</b>예요.</p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>AI·기술주 차익실현이 그대로 반영됐어요. 토스 AI 요약도 '엔비디아 차익실현'으로 잡았어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>레버리지 ETF는 <b>하루만</b> 보는 상품이에요. 오르내림이 반복되는 장에서는 지수가 제자리여도 3배 상품은 마이너스가 돼요.</p></div>
-  <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/TQQQ" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/TQQQ" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
-  </div>
-  <p class="asof">달러 가격·등락률은 11/24 정규장 마감 기준, 원화 표시는 토스증권 표시가(한국시간 11/25 07:04)예요.</p>
-  <details class="more">
-    <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>토스 순위</span><b>11위 (거래대금 1.6억 원)</b></div><div><span>정규장 종가</span><b>$46.19 (-5.93%)</b></div><div><span>원화 표시</span><b>62,185원 (시간외 -0.02%)</b></div></div>
-    <p class="src">토스증권(11/25 07:04) · Yahoo Finance 종가</p>
-  </details>
-</article>
-
-<article class="card" data-k="11" id="card-kr-ANT">
-  <div class="ctop"><span class="rk">인기 12위</span><span class="tk">ANT</span></div>
+<article class="card" data-i="4" id="card-kr-ANT">
+  <div class="ctop"><span class="rk">인기 5위</span><span class="tk">ANT · AI 모델(클로드)</span></div>
   <h2>앤트로픽</h2>
-  <p class="what">AI 모델 <b>클로드</b>를 만드는 회사예요. 11/19에 나스닥에 상장했어요.</p>
-  <div class="prow"><span class="price">$81.905</span><span class="pct d">-6.54%</span></div>
-  <span class="badge bg-y">🟡 이미 많이 오름</span>
-  <div class="pos3"><div><span>원화 표시</span><b>109,949원 (-0.31%)</b></div><div><span>시가총액</span><b>1,549.4조 원</b></div><div><span>거래대금</span><b>12위</b></div></div>
-  <p class="posnote"><b>IPO 공모가(83달러) 아래</b>로 내려왔어요. 상장 일주일 만이에요.</p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>AI 관련주가 통째로 밀린 날이었고, <b>AI 인프라 투자 부담</b>이 다시 부각됐어요. 회사 고유의 악재는 없었어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>공모가 아래로 내려간 종목은 <b>상장 때 산 사람들이 모두 손실 구간</b>이라는 뜻이라, 반등할 때마다 매물이 나와요.</p></div>
+  <p class="what">AI 모델 <b>클로드</b>를 만드는 회사예요. 올해 상장했어요.</p>
+  <div class="prow"><span class="price">$78.91</span><span class="pct d">-3.66%</span></div>
+  <span class="badge bg-y">🟡 대형주</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국</b></div><div><span>전일 종가</span><b>$81.905</b></div><div><span>시가총액</span><b>약 1,458조 원</b></div></div>
+  <p class="posnote">토스 인기 <b>5위</b>, 원화로 <b>105,580원(-4.05%)</b>.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p><b>AI 인프라 비용 부담</b>(인프라 약정 부담) 우려가 부각됐어요(토스 AI 요약).</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>AI 회사의 주가를 움직이는 건 "<b>매출이 비용을 따라가느냐</b>"예요. 오늘은 비용 쪽이 부각된 날이에요.</p></div>
   <div class="rt">
     <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/ANT" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
     <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/ANT" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">달러 가격·등락률은 11/24 정규장 마감 기준, 원화 표시는 토스증권 표시가(한국시간 11/25 07:04)예요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>토스 순위</span><b>12위 (거래대금 1.6억 원)</b></div><div><span>정규장 종가</span><b>$81.905 (-6.54%)</b></div><div><span>원화 표시</span><b>109,949원 (시간외 -0.31%)</b></div><div><span>IPO 공모가</span><b>$83 (11/19)</b></div></div>
-    <p class="src">토스증권(11/25 07:04) · Yahoo Finance 종가 · Investopedia(11/24)</p>
+    <div class="facts"><div><span>전일 종가</span><b>$81.905</b></div><div><span>현재가</span><b>$78.91</b></div><div><span>원화가(토스)</span><b>105,580원</b></div><div><span>토스 인기</span><b>5위</b></div></div>
+    <p class="src">Yahoo(00:17) · 토스증권(00:05)</p>
   </details>
 </article>
-
-<article class="card" data-k="12" id="card-kr-AMD">
-  <div class="ctop"><span class="rk">인기 13위</span><span class="tk">AMD · CPU·AI 가속기</span></div>
-  <h2>AMD</h2>
-  <p class="what">컴퓨터용 CPU와 AI 가속기를 만드는 반도체 회사예요. 엔비디아의 경쟁자예요.</p>
-  <div class="prow"><span class="price">$413.27</span><span class="pct d">-8.86%</span></div>
+<article class="card" data-i="5" id="card-kr-BNAI">
+  <div class="ctop"><span class="rk">인기 6위</span><span class="tk">BNAI · AI 아바타·광고</span></div>
+  <h2>브랜드 인게이지먼트 네트워크</h2>
+  <p class="what">AI 아바타로 광고와 상담을 자동화하는 회사예요.</p>
+  <div class="prow"><span class="price">$7.86</span><span class="pct u">+18.20%</span></div>
   <span class="badge bg-y">🟡 이미 많이 오름</span>
-  <div class="pos3"><div><span>원화 표시</span><b>558,340원 (+0.44%)</b></div><div><span>시가총액</span><b>994.6조 원</b></div><div><span>거래대금</span><b>15위</b></div></div>
-  <p class="posnote">반도체 동반 약세에 <b>-8.86%</b>. 시간외에서 소폭(+0.4%) 되돌렸어요.</p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>필라델피아 반도체 -7.88%의 영향이에요. 회사 뉴스는 없었고 <b>업종 전체가 빠진 날</b>이에요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>같은 반도체라도 엔비디아(-5.86%)보다 AMD(-8.86%)가 더 빠졌어요. <b>덜 오른 종목이 더 빠지는</b> 날이라, 업종 안에서도 온도차가 있어요.</p></div>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국</b></div><div><span>전일 종가</span><b>$6.65</b></div><div><span>시가총액</span><b>약 6,017만 달러 (약 810억 원)</b></div></div>
+  <p class="posnote">토스 인기 <b>6위</b>, 원화로 <b>11,259원(+26.01%)</b>까지 갔다가 지금은 +18%예요.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p><b>채무 조정 합의</b> 소식(토스 AI 요약)과 11/23 3분기 적자 축소 발표가 재료예요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>빚을 정리한 회사는 살아남을 확률이 올라가지만, 아직 적자예요. 인기 6위라 <b>개인이 많이 들고 있어</b> 흔들림이 커요.</p></div>
   <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/AMD" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/AMD" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/BNAI" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/BNAI" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">달러 가격·등락률은 11/24 정규장 마감 기준, 원화 표시는 토스증권 표시가(한국시간 11/25 07:04)예요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>토스 순위</span><b>15위 (거래대금 1.1억 원)</b></div><div><span>정규장 종가</span><b>$413.27 (-8.86%)</b></div><div><span>원화 표시</span><b>558,340원 (시간외 +0.44%)</b></div></div>
-    <p class="src">토스증권(11/25 07:04) · Yahoo Finance 종가</p>
+    <div class="facts"><div><span>전일 종가</span><b>$6.65</b></div><div><span>현재가</span><b>$7.86</b></div><div><span>원화가(토스)</span><b>11,259원</b></div><div><span>토스 인기</span><b>6위</b></div></div>
+    <p class="src">Yahoo(00:17) · 토스증권(00:12)</p>
   </details>
 </article>
-
-<article class="card" data-k="13" id="card-kr-SOXX">
-  <div class="ctop"><span class="rk">인기 14위</span><span class="tk">SOXX · ETF</span></div>
-  <h2>반도체 ETF</h2>
-  <p class="what">미국 반도체 30개 회사를 담은 <b>일반(1배)</b> ETF예요. 레버리지가 아니에요.</p>
-  <div class="prow"><span class="price">$128.62</span><span class="pct d">-8.27%</span></div>
-  <span class="badge bg-y">🟡 이미 많이 오름</span>
-  <div class="pos3"><div><span>원화 표시</span><b>173,711원 (+0.29%)</b></div><div><span>순자산(AUM)</span><b>49.5조 원</b></div><div><span>거래대금</span><b>19위</b></div></div>
-  <p class="posnote">필라델피아 반도체(-7.88%)와 거의 같은 <b>-8.27%</b>. 1배 상품이라 왜곡이 없어요.</p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>반도체 업종 전체가 빠졌어요(ADI -17%, 인텔 -8%, 마이크론 -11%). 개별 종목보다 <b>업종 온도</b>를 보기 좋은 상품이에요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>레버리지를 싫어하면 <b>이쪽(SOXX)</b>이 낫지만, 오늘처럼 업종이 -8% 빠지는 날엔 그대로 다 맞아요.</p></div>
+<article class="card" data-i="6" id="card-kr-SPCX">
+  <div class="ctop"><span class="rk">인기 7위</span><span class="tk">SPCX · 우주 발사·위성</span></div>
+  <h2>스페이스X</h2>
+  <p class="what">로켓 발사와 위성 인터넷(스타링크)을 하는 회사예요. 올해 상장했어요.</p>
+  <div class="prow"><span class="price">$116.975</span><span class="pct d">-7.02%</span></div>
+  <span class="badge bg-y">🟡 대형주</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국</b></div><div><span>전일 종가</span><b>$125.81</b></div><div><span>시가총액</span><b>약 2,300조 원</b></div></div>
+  <p class="posnote">토스 인기 <b>8위</b>, 원화로 <b>157,967원(-6.54%)</b>.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p><b>AI 서비스 수요 우려</b>와 기술주 약세에 함께 밀렸어요(토스 AI 요약).</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>우주 기업인데도 오늘은 AI 우려에 같이 빠졌어요. <b>요즘 시장은 AI 하나로 묶여 움직여요.</b></p></div>
   <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/SOXX" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/SOXX" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/SPCX" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/SPCX" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">달러 가격·등락률은 11/24 정규장 마감 기준, 원화 표시는 토스증권 표시가(한국시간 11/25 07:04)예요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>토스 순위</span><b>19위 (거래대금 8,497만 원)</b></div><div><span>정규장 종가</span><b>$128.62 (-8.27%)</b></div><div><span>원화 표시</span><b>173,711원 (시간외 +0.29%)</b></div></div>
-    <p class="src">토스증권(11/25 07:04) · Yahoo Finance 종가</p>
+    <div class="facts"><div><span>전일 종가</span><b>$125.81</b></div><div><span>현재가</span><b>$116.975</b></div><div><span>원화가(토스)</span><b>157,967원</b></div><div><span>토스 인기</span><b>8위</b></div></div>
+    <p class="src">Yahoo(00:17) · 토스증권(00:05)</p>
   </details>
 </article>
-
-<article class="card" data-k="14" id="card-kr-SKHY">
-  <div class="ctop"><span class="rk">인기 15위</span><span class="tk">SKHY</span></div>
-  <h2>SK하이닉스(ADR)</h2>
-  <p class="what">HBM·D램을 만드는 한국 반도체 회사의 <b>미국 예탁증서(ADR)</b>예요.</p>
-  <div class="prow"><span class="price">$111.98</span><span class="pct d">-9.90%</span></div>
-  <span class="badge bg-y">🟡 이미 많이 오름</span>
-  <div class="pos3"><div><span>원화 표시</span><b>151,223원 (+0.26%)</b></div><div><span>시가총액</span><b>1,211.4조 원</b></div><div><span>거래대금</span><b>21위</b></div></div>
-  <p class="posnote">어제 <b>+20.0%</b> → 오늘 <b>-9.90%</b>. 국내 SK하이닉스 주가와는 시차가 있어요.</p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>메모리 가격 우려로 마이크론(-11%)·샌디스크(-11%)와 함께 밀렸어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>ADR은 <b>한국 장이 닫힌 뒤</b> 미국에서 거래돼요. 내일 아침 한국 SK하이닉스 주가에 오늘 밤 이 흐름이 반영될 수 있어요.</p></div>
+<article class="card" data-i="7" id="card-kr-TQQQ">
+  <div class="ctop"><span class="rk">인기 8위</span><span class="tk">TQQQ · 나스닥100 3배</span></div>
+  <h2>나스닥 3배 레버리지</h2>
+  <p class="what">나스닥100 지수를 <b>3배</b> 따라가는 ETF예요.</p>
+  <div class="prow"><span class="price">$41.61</span><span class="pct d">-9.92%</span></div>
+  <span class="badge bg-r">🔴 3배 레버리지·위험</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국(ETF)</b></div><div><span>전일 종가</span><b>$46.19</b></div><div><span>시가총액</span><b>ETF (시총 대신 운용규모)</b></div></div>
+  <p class="posnote">토스 인기 <b>9위</b>, 원화로 <b>56,068원(-9.65%)</b>.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>나스닥100이 -3.2% 빠지면서 3배인 이 ETF는 -9.9%가 됐어요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>QQQ가 3.2% 빠질 때 TQQQ는 9.9% 빠져요. <b>같은 하루에 3배로 맞는 것</b>이 레버리지예요.</p></div>
   <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/SKHY" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/SKHY" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/TQQQ" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/TQQQ" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">달러 가격·등락률은 11/24 정규장 마감 기준, 원화 표시는 토스증권 표시가(한국시간 11/25 07:04)예요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>토스 순위</span><b>21위 (거래대금 6,416만 원)</b></div><div><span>정규장 종가</span><b>$111.98 (-9.90%)</b></div><div><span>원화 표시</span><b>151,223원 (시간외 +0.26%)</b></div><div><span>전일</span><b>+20.0%</b></div></div>
-    <p class="src">토스증권(11/25 07:04) · Yahoo Finance 종가</p>
+    <div class="facts"><div><span>전일 종가</span><b>$46.19</b></div><div><span>현재가</span><b>$41.61</b></div><div><span>원화가(토스)</span><b>56,068원</b></div><div><span>토스 인기</span><b>9위</b></div></div>
+    <p class="src">Yahoo(00:17) · 토스증권(00:05)</p>
   </details>
 </article>
-
-<article class="card" data-k="15" id="card-kr-IREN">
-  <div class="ctop"><span class="rk">인기 16위</span><span class="tk">IREN</span></div>
-  <h2>아이렌</h2>
-  <p class="what">비트코인 채굴장을 <b>AI 데이터센터</b>로 바꾸는 회사예요(호주).</p>
-  <div class="prow"><span class="price">$12.95</span><span class="pct d">-11.54%</span></div>
-  <span class="badge bg-r">🔴 변동성 큼·조심</span>
-  <div class="pos3"><div><span>원화 표시</span><b>17,357원 (-0.38%)</b></div><div><span>시가총액</span><b>8.3조 원</b></div><div><span>거래대금</span><b>22위</b></div></div>
-  <p class="posnote">어제 <b>+22.9%</b> → 오늘 <b>-11.54%</b>. AI 인프라주(코어위브 -11.85%)와 같이 빠졌어요.</p>
-  <div class="why"><h3>왜 움직였나요?</h3><p>AI 설비투자 <b>자금 부담</b>이 다시 부각됐어요. 비트코인도 -2%대라 두 재료가 겹쳤어요.</p></div>
-  <div class="ai"><h3>🤖 AI 한마디</h3><p>비트코인과 AI가 <b>동시에 흔들리면</b> 이 종목은 두 배로 맞아요. 변동성이 큰 이유예요.</p></div>
+<article class="card" data-i="8" id="card-kr-FFAI">
+  <div class="ctop"><span class="rk">인기 9위</span><span class="tk">FFAI · 전기차</span></div>
+  <h2>패러데이 퓨처</h2>
+  <p class="what">0.1달러대 초저가 전기차 회사예요.</p>
+  <div class="prow"><span class="price">$0.104</span><span class="pct u">+11.72%</span></div>
+  <span class="badge bg-r">🔴 변동성 큼·조심</span> <span class="badge bg-mc">⚠️ 초소형</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국</b></div><div><span>전일 종가</span><b>$0.093</b></div><div><span>시가총액</span><b>약 133만 달러 (약 18억 원)</b></div></div>
+  <p class="posnote">토스 인기 <b>10위</b>, 원화로 <b>137원(+10.43%)</b>.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>오늘 새 뉴스는 확인되지 않았어요. 초저가 종목에 개인 매수세가 붙었어요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>137원짜리 주식이에요. <b>1만 원으로 70주</b>가 넘게 사지니까, 조금만 올라도 크게 느껴져요.</p></div>
   <div class="rt">
-    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/IREN" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
-    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/IREN" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/FFAI" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/FFAI" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
   </div>
-  <p class="asof">달러 가격·등락률은 11/24 정규장 마감 기준, 원화 표시는 토스증권 표시가(한국시간 11/25 07:04)예요.</p>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
   <details class="more">
     <summary>자세히 보기 (숫자·출처)</summary>
-    <div class="facts"><div><span>토스 순위</span><b>22위 (거래대금 5,765만 원)</b></div><div><span>정규장 종가</span><b>$12.95 (-11.54%)</b></div><div><span>원화 표시</span><b>17,357원 (시간외 -0.38%)</b></div><div><span>전일</span><b>+22.9%</b></div></div>
-    <p class="src">토스증권(11/25 07:04) · Yahoo Finance 종가 · CNBC(11/24)</p>
+    <div class="facts"><div><span>전일 종가</span><b>$0.093</b></div><div><span>현재가</span><b>$0.104</b></div><div><span>원화가(토스)</span><b>137원</b></div><div><span>토스 인기</span><b>10위</b></div></div>
+    <p class="src">Yahoo(00:17) · 토스증권(00:05)</p>
   </details>
 </article>
-
+<article class="card" data-i="9" id="card-kr-QQQM">
+  <div class="ctop"><span class="rk">인기 10위</span><span class="tk">QQQM · 나스닥100 지수 ETF</span></div>
+  <h2>나스닥100 (QQQM)</h2>
+  <p class="what">나스닥100 지수를 그대로 따라가는 ETF예요. 레버리지가 없어서 지수만큼만 움직여요.</p>
+  <div class="prow"><span class="price">$254.16</span><span class="pct d">-3.28%</span></div>
+  <span class="badge bg-y">🟡 지수 ETF</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국(ETF)</b></div><div><span>전일 종가</span><b>$262.78</b></div><div><span>시가총액</span><b>ETF (시총 대신 운용규모)</b></div></div>
+  <p class="posnote">토스 <b>거래대금 3위</b>, 원화로 <b>341,758원(-3.20%)</b>.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>나스닥100이 -3.2% 빠진 만큼 그대로 빠졌어요. 엔비디아 지배구조 우려가 재료예요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>레버리지 없는 ETF는 지수와 <b>거의 같은 숫자</b>로 움직여요. 오늘 시장이 어땠는지 보는 기준이 돼요.</p></div>
+  <div class="rt">
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/QQQM" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/QQQM" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+  </div>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
+  <details class="more">
+    <summary>자세히 보기 (숫자·출처)</summary>
+    <div class="facts"><div><span>전일 종가</span><b>$262.78</b></div><div><span>현재가</span><b>$254.16</b></div><div><span>원화가(토스)</span><b>341,758원</b></div><div><span>토스 거래대금</span><b>3위</b></div></div>
+    <p class="src">Yahoo(00:17) · 토스증권(00:05)</p>
+  </details>
+</article>
+<article class="card" data-i="10" id="card-kr-SQQQ">
+  <div class="ctop"><span class="rk">인기 11위</span><span class="tk">SQQQ · 나스닥100 3배 하락</span></div>
+  <h2>나스닥 3배 인버스</h2>
+  <p class="what">나스닥100이 <b>내리면 3배로 오르는</b> ETF예요.</p>
+  <div class="prow"><span class="price">$53.16</span><span class="pct u">+9.25%</span></div>
+  <span class="badge bg-r">🔴 3배 레버리지·위험</span>
+  <div class="pos3"><div><span>본사 국가</span><b>🇺🇸 미국(ETF)</b></div><div><span>전일 종가</span><b>$48.66</b></div><div><span>시가총액</span><b>ETF (시총 대신 운용규모)</b></div></div>
+  <p class="posnote">토스 <b>거래대금 20위</b>, 원화로 <b>71,345원(+9.12%)</b>.</p>
+  <div class="why"><h3>왜 움직였나요?</h3><p>나스닥 하락을 3배로 따라 올랐어요.</p></div>
+  <div class="ai"><h3>🤖 AI 한마디</h3><p>하락에 베팅하는 상품이라 <b>시장이 반등하면 가장 먼저 손실</b>이 나요. 길게 들고 있기엔 불리한 구조예요.</p></div>
+  <div class="rt">
+    <a class="rtbtn toss" href="https://www.tossinvest.com/stocks/SQQQ" target="_blank" rel="noopener">토스증권 실시간 <span class="ar">↗</span></a>
+    <a class="rtbtn yahoo" href="https://finance.yahoo.com/quote/SQQQ" target="_blank" rel="noopener">야후 파이낸스 <span class="ar">↗</span></a>
+  </div>
+  <p class="asof">위 가격·등락률은 11/25(수) <b>미국 본장</b>(한국시간 11/26 00:12 전후) 조회 값이에요. 분 단위로 달라지는 종목이라 지금 가격은 토스증권에서 확인하세요.</p>
+  <details class="more">
+    <summary>자세히 보기 (숫자·출처)</summary>
+    <div class="facts"><div><span>전일 종가</span><b>$48.66</b></div><div><span>현재가</span><b>$53.16</b></div><div><span>원화가(토스)</span><b>71,345원</b></div><div><span>토스 거래대금</span><b>20위</b></div></div>
+    <p class="src">Yahoo(00:17) · 토스증권(00:12)</p>
+  </details>
+</article>
 </div>
 
 <div class="modal" id="modal" hidden>
   <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="종목 상세">
     <div class="mbar">
       <button type="button" class="nav" id="prev" aria-label="이전 종목">← 이전</button>
-      <span class="pos" id="mpos">1 / 36</span>
+      <span class="pos" id="mpos">1 / 31</span>
       <button type="button" class="nav" id="next" aria-label="다음 종목">다음 →</button>
       <button type="button" class="x" id="close" aria-label="닫기">✕</button>
     </div>
     <div class="mbody" id="mbody"></div>
   </div>
+</div>
 </div>
 
 <script>
